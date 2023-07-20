@@ -1,0 +1,58 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8
+
+\documentclass[liber-responsorialis.tex]{subfiles}
+
+\ifcsname preamble@file\endcsname
+  \setcounter{page}{\getpagerefnumber{M-lr30_commune_apostolorum}}
+\fi
+
+\begin{document}
+\feast{CS}{Commune Sanctorum}{Commune Sanctorum}{Commune Sanctorum}{1}{}{}{}{}{}{}
+\addcontentsline{toc}{chapter}{Commune Sanctorum}
+
+\feast{VIAP}{In Vigiliis Apostolorum}
+	{Commune Sanctorum}{In Vigiliis Apostolorum}{2}{}
+	{}{}{}
+	{}{}
+\rubric{Responsoria de Feria currenti, ut in proprio de Tempore.}
+
+\feast{APEX}{Commune Apostolorum et Evangelistarum\\extra Tempus Paschale}
+	{Commune Sanctorum}{Commune Apostolorum extra T. P.}{2}{}
+	{}{}{}
+	{}
+	{}
+\addcontentsline{toc}{section}{Commune Apostolorum}
+\nocturn{1}
+\gscore{APEXN1R1}{R}{1}{Ecce ego mitto vos sicut}
+\gscore{APEXN1R2}{R}{2}{Tollite jugum meum super vos}
+\gscore{APEXN1R3}{R}{3}{Dum steteritis ante reges}
+\nocturn{2}
+\gscore{APEXN2R1}{R}{4}{Vidi conjunctos viros}
+\gscore{APEXN2R2}{R}{5}{Beati eritis cum maledixerint}
+\gscore{APEXN2R3}{R}{6}{Isti sunt triumphatores}
+\nocturn{3}
+\gscore{APEXN3R1}{R}{7}{Isti sunt qui viventes}
+\gscore{APEXN3R2}{R}{8}{Isti sunt viri sancti}
+
+\feast{APTP}{Commune Apostolorum\\et Evangelistarum\\Tempore Paschali}
+	{Commune Sanctorum}{Commune Apostolorum et Evangelistarum T. P.}{2}{}
+	{}{}{}
+	{}
+	{}
+\nocturn{1}
+\gscore{APTPN1R1}{R}{1}{Beatus vir qui metuit Dominum}
+\gscore{APTPN1R2}{R}{2}{Tristitia vestra} % TODO decide if we should keep this or merge it with the R/ de tempore
+\gscore{APTPN1R3}{R}{3}{Pretiosa in conspectu}
+\nocturn{2}
+\gscore{APTPN2R1}{R}{4}{Lux perpetua lucebit}
+\gscore{APTPN2R2}{R}{5}{Virtute magna} % TODO decide if we should keep this or merge it with the R/ de tempore
+\rubric{Feria \Rnum{2} et \Rnum{4} infra hebdomadam \Rnum{1} et \Rnum{2} post Octavam Paschæ, quoties in \Rnum{1} Nocturno Lectiones fuerint de Scriptura occurenti cum suis Responsoriis de Tempore, loco præcedentis Responsorii de Tempore dicitur \rrrub \scorename{APTPN1R3}, ut supra pag.\pageref{M-APTPN1R3}, sed sine \normaltext{Glória Patri}.}
+\gscore{APTPN2R3}{R}{6}{Isti sunt agni novelli}
+\nocturn{3}
+\gscore{APTPN3R1}{R}{7}{Ego sum vitis vera} % TODO decide if we should keep this or merge it with the R/ de tempore
+\rubric{Feria \Rnum{3} et \Rnum{6} infra hebdomadam \Rnum{1} et \Rnum{2} post Octavam Paschæ, quoties in \Rnum{1} Nocturno Lectiones fuerint de Scriptura occurenti cum suis Responsoriis de Tempore, loco præcedentis Responsorii de Tempore dicitur \rrrub \scorename{APTPN1R2}, ut supra pag.\ \pageref{M-APTPN1R2}.}
+\gscore{APTPN3R2}{R}{8}{Candidi facti sunt}
+\tedeumrubric
+
+\end{document}

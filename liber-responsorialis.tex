@@ -1,0 +1,54 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8
+
+\documentclass[11pt, twoside, french]{book}
+
+\input{common_headers}
+\externaldocument[M-]{\subfix{liber-responsorialis}}
+
+\begin{document}
+
+\customsubfile{lr01_prolegomena}
+\customsubfile{lr02_kalendarii}
+\customsubfile{lr10_tempus_adventus}
+\customsubfile{lr11_tempus_nativitatis}
+\customsubfile{lr12_tempus_post_epiphaniam}
+\customsubfile{lr13_tempus_quadragesimae}
+\customsubfile{lr14_tempus_passionis}
+\customsubfile{lr15_tempus_paschale}
+\customsubfile{lr16_tempus_post_pentecosten}
+\customsubfile{lr17_tempus_augusti_septembris}
+\customsubfile{lr18_tempus_octobris_novembris}
+\customsubfile{lr20_psalterium_ordinarium}
+\customsubfile{lr21_psalterium_hebdomada}
+\customsubfile{lr30_commune_apostolorum}
+\customsubfile{lr31_commune_martyrum}
+\customsubfile{lr32_commune_confessoris}
+\customsubfile{lr33_commune_mulierum}
+\customsubfile{lr34_commune_dedicationis}
+\customsubfile{lr35_commune_bmv}
+\customsubfile{lr36_officium_defunctorum}
+\customsubfile{lr40_sanctorale_januarii}
+\customsubfile{lr41_sanctorale_februarii}
+\customsubfile{lr42_sanctorale_martii}
+\customsubfile{lr43_sanctorale_aprilis}
+\customsubfile{lr44_sanctorale_maii}
+\customsubfile{lr45_sanctorale_junii}
+\customsubfile{lr46_sanctorale_julii}
+\customsubfile{lr47_sanctorale_augusti}
+\customsubfile{lr48_sanctorale_septembris}
+\customsubfile{lr49_sanctorale_octobris}
+\customsubfile{lr50_sanctorale_novembris}
+\customsubfile{lr51_sanctorale_decembris}
+\newpage
+\addcontentsline{toc}{chapter}{Indices}
+\cprintindex{I}{Index Invitatoriorum}
+\cprintindex{R}{Index Responsorium}
+\cprintindex{T}{Index Tonorum communorum}
+\cprintindex{F}{Index Festorum}
+\renewcommand\contentsname{Index Generalis}
+\tableofcontents
+\thispagestyle{empty}
+
+\end{document}
+
