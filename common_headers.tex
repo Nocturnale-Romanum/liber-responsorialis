@@ -14,7 +14,11 @@
 %%%%%%%%%%%%%%% STANDARD PACKAGES %%%%%%%%%%%%%%%
 
 %% This is the format of the recent Solesmes books.
-\usepackage[paperwidth=135mm, paperheight=205mm]{geometry}
+%%\usepackage[paperwidth=135mm, paperheight=205mm]{geometry}
+
+%% This reuses the text area width of the recent Solesmes books, with more inner margin, to get an aspect ratio of 1,33
+%% which corresponds to the largest KDP hardcover format (8,25 in x 11 in)
+\usepackage[paperwidth=150mm, paperheight=205mm]{geometry}
 
 %% This is the format of the 1912 Antiphonale Romanum
 %\usepackage[paperwidth=160mm, paperheight=240mm]{geometry}
@@ -48,8 +52,8 @@
 
 %% This should mimic the layout of the recent Solesmes books.
 \geometry{
-inner=15mm,
-outer=10mm,
+inner=25mm,
+outer=15mm,
 top=12mm,
 bottom=15mm,
 headsep=3mm,
@@ -80,7 +84,6 @@ headsep=3mm,
 %% this limits how much scores can stretch vertically
 %% when they are forced to adhere to the bottom of a page (i.e followed by \pagebreak)
 \grechangedim{baselineskip}{65pt plus 1pt minus 5pt}{scalable}
-%% this however has been found to break the page layout of the psalterium festivum, somehow
 
 %% text above lines shall be of color gregoriocolor
 \grechangestyle{abovelinestext}{\color{gregoriocolor}\footnotesize\itshape}
@@ -136,7 +139,7 @@ headsep=3mm,
   %% the use of a directory called "gabc" is linked
   %% to the management of gabc files by the website: do not change 
   %% without also changing the website static files structure
-  \gregorioscore{\subfix{gabc/#1}}
+  \gregorioscore{\subfix{nocturnale-romanum/gabc/#1}}
   \gresetinitiallines{1}
 }
 

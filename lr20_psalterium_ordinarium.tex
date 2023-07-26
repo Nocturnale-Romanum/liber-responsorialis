@@ -1,13 +1,6 @@
 % !TEX TS-program = lualatex
 % !TEX encoding = UTF-8
 
-\documentclass[liber-responsorialis-aestivus.tex]{subfiles}
-
-\ifcsname preamble@file\endcsname
-  \setcounter{page}{\getpagerefnumber{M-lr20_psalterium_ordinarium}}
-\fi
-
-\begin{document}
 \feast{OR}{Ordinarium Divini Offici\\ ad Matutinum}
 	{Ordinarium}{Ordinarium}{1}{}{}{}{}{}{}
 \addcontentsline{toc}{chapter}{Ordinarium Divini Officii ad Matutinum}
@@ -84,7 +77,7 @@ nisi aliter notatur.}
 ac deinde subjungitur Versus, prouti Officium occurrens requirit.
 Post Versum cujuslibet Nocturni dicitur:}
 
-\gscore[n]{ORPN}{T}{}{Pater Noster}
+\unindexedscore{ORPN}
 
 \smalltitle{Absolutio}
 \gscore[n]{ORA}{T}{}{Absolutio}
@@ -347,7 +340,7 @@ statim incipiuntur Laudes a Versu \normaltext{Deus, in adjutórium}.
 Si non sequent Laudes, post Hymnum \normaltext{Te Deum},
 vel post ultimum Responsorium, dicitur:}
 
-\gscore[n]{ORDV}{T}{}{Dominus vobiscum}
+\unindexedscore{ORDV}
 
 \rubric{Hic versus non dicitur ab eo, qui non est saltem in ordine diaconatus;
 sed ejus loco substituitur:}
@@ -373,112 +366,113 @@ sed ejus loco substituitur:}
 	{Toni Communes}{Psalmi Toni Invitatorii}{2}{}{}{}{}{}{}
 	
 \smalltitle{Tonus 2d}
-\gscore{ORIP2d}{P}{}{Venite exsultemus!Tonus 2d}
+\gscore{ORIP2d}{T}{}{Venite exsultemus!Tonus 2d}
 
 \smalltitle{Tonus 3c}
-\gscore{ORIP3c}{P}{}{Venite exsultemus!Tonus 3c}
+\gscore{ORIP3c}{T}{}{Venite exsultemus!Tonus 3c}
 
 \smalltitle{Tonus 3c2}
 \rubric{Hic tonus ad libitum pro tono 3c substitui potest.}
-\gscore{ORIP3c2}{P}{}{Venite exsultemus!Tonus 3c2 ad lib.}
+\gscore{ORIP3c2}{T}{}{Venite exsultemus!Tonus 3c2 ad lib.}
 
 \smalltitle{Tonus 3e}
-\gscore{ORIP3e}{P}{}{Venite exsultemus!Tonus 3e}
+\gscore{ORIP3e}{T}{}{Venite exsultemus!Tonus 3e}
 
 \smalltitle{Tonus 4e}
-\gscore{ORIP4e}{P}{}{Venite exsultemus!Tonus 4e}
+\gscore{ORIP4e}{T}{}{Venite exsultemus!Tonus 4e}
 
 \smalltitle{Tonus 4g}
-\gscore{ORIP4g}{P}{}{Venite exsultemus!Tonus 4g}
+\gscore{ORIP4g}{T}{}{Venite exsultemus!Tonus 4g}
 
 \smalltitle{Tonus 4d}
-\gscore{ORIP4d}{P}{}{Venite exsultemus!Tonus 4d}
+\gscore{ORIP4d}{T}{}{Venite exsultemus!Tonus 4d}
 
 \smalltitle{Tonus 4d2}
 \rubric{Hic tonus ad libitum pro tonis 4g et 4d substitui potest.}
-\gscore{ORIP4d2}{P}{}{Venite exsultemus!Tonus 4d2 ad lib.}
+\gscore{ORIP4d2}{T}{}{Venite exsultemus!Tonus 4d2 ad lib.}
 
 \smalltitle{Tonus 5g}
-\gscore{ORIP5g}{P}{}{Venite exsultemus!Tonus 5g}
+\gscore{ORIP5g}{T}{}{Venite exsultemus!Tonus 5g}
 
 \smalltitle{Tonus 6a}
-\gscore{ORIP6a}{P}{}{Venite exsultemus!Tonus 6a}
+\gscore{ORIP6a}{T}{}{Venite exsultemus!Tonus 6a}
 
 \smalltitle{Tonus 6f}
-\gscore{ORIP6f}{P}{}{Venite exsultemus!Tonus 6f}
+\gscore{ORIP6f}{T}{}{Venite exsultemus!Tonus 6f}
 
 \smalltitle{Tonus 6f2}
 \rubric{Hic tonus ad libitum pro tono 6f substitui potest.}
-\gscore{ORIP6f2}{P}{}{Venite exsultemus!Tonus 6f2 ad lib.}
+\gscore{ORIP6f2}{T}{}{Venite exsultemus!Tonus 6f2 ad lib.}
 
 \smalltitle{Tonus 6f3}
 \rubric{Hic tonus ad libitum pro tono 6f substitui potest.}
-\gscore{ORIP6f3}{P}{}{Venite exsultemus!Tonus 6f3 ad lib.}
+\gscore{ORIP6f3}{T}{}{Venite exsultemus!Tonus 6f3 ad lib.}
 
 \smalltitle{Tonus 7a}
-\gscore{ORIP7a}{P}{}{Venite exsultemus!Tonus 7a}
+\gscore{ORIP7a}{T}{}{Venite exsultemus!Tonus 7a}
 
 \smalltitle{Tonus 7g}
-\gscore{ORIP7g}{P}{}{Venite exsultemus!Tonus 7g}
+\gscore{ORIP7g}{T}{}{Venite exsultemus!Tonus 7g}
 
 \smalltitle{Tonus 7g2}
 \rubric{Hic tonus ad libitum pro tono 7g substitui potest.}
-\gscore{ORIP7g2}{P}{}{Venite exsultemus!Tonus 7g2}
-
-\feast{TCTD}{Hymnus Ambrosianus}
-	{Toni Communes}{Hymnus Ambrosianus}{2}{}{}{}{}{}{}
-\gscore{ORTDa}{H}{}{Te Deum laudamus!Tonus solemnis}
-\gscore{ORTDb}{H}{}{Te Deum laudamus!Tonus simplex}
+\gscore{ORIP7g2}{T}{}{Venite exsultemus!Tonus 7g2}
 
 \newpage
 
 \feast{TCGP}{Toni Communes ad «Gloria Patri»}
 	{Toni Communes}{ad «Gloria Patri»}{2}{}{}{}{}{}{}
-\gscore[n]{ORGP1}{T}{}{Toni Communes Ad Gloria Patri!Modo 1}
-\gscore[n]{ORGP2}{T}{}{Toni Communes Ad Gloria Patri!Modo 2}
-\gscore[n]{ORGP3}{T}{}{Toni Communes Ad Gloria Patri!Modo 3}
-\gscore[n]{ORGP4}{T}{}{Toni Communes Ad Gloria Patri!Modo 4}
-\gscore[n]{ORGP5}{T}{}{Toni Communes Ad Gloria Patri!Modo 5}
-\gscore[n]{ORGP6}{T}{}{Toni Communes Ad Gloria Patri!Modo 6}
-\gscore[n]{ORGP7}{T}{}{Toni Communes Ad Gloria Patri!Modo 7}
-\gscore[n]{ORGP8}{T}{}{Toni Communes Ad Gloria Patri!Modo 8}
+\thispagestyle{empty}
+
+\gscore{ORGP1}{T}{}{Gloria Patri in fine Responsoriorum}
+\gscore{ORGP2}{T}{}{}
+\gscore{ORGP3}{T}{}{}
+\gscore{ORGP4}{T}{}{}
+\gscore{ORGP5}{T}{}{}
+\gscore{ORGP6}{T}{}{}
+\gscore{ORGP7}{T}{}{}
+\gscore{ORGP8}{T}{}{}
+
+\feast{TCALR}{Toni Communes ad «Alleluia»\\in Fine Responsoriorum}
+	{Toni Communes}{ad «Alleluia»}{2}{}{}{}{}{}{}
+\gscore[n]{ORAL2}{T}{}{Alleluia in fine Responsoriorum}
+
+\pagebreak
+
+\feast{TCTD}{Hymnus Ambrosianus}
+	{Toni Communes}{Hymnus Ambrosianus}{2}{}{}{}{}{}{}
+\thispagestyle{empty}
+\gscore{ORTDa}{T}{}{Te Deum laudamus!Tonus solemnis}
+\gscore{ORTDb}{T}{}{Te Deum laudamus!Tonus simplex}
 
 \pagebreak
 
 \feast{TCBD}{Toni Communes ad «Benedicamus Domino»}
 	{Toni Communes}{ad «Benedicamus Domino»}{2}{}{}{}{}{}{}
-\rubric{In Festis Solemnibus}
-\gscore{ORBDa}{T}{}{Benedicamus Domino!In Festis Solemnibus}
-\rubric{In Festis Duplicibus}
-\gscore{ORBDb}{T}{}{Benedicamus Domino!In Festis Duplicibus}
-\rubric{Per Octavam Paschae}
-\gscore{ORBDj}{T}{}{Benedicamus Domino!Per Octavam Paschae}
-\rubric{Tempore Paschali}
-\gscore{ORBDk}{T}{}{Benedicamus Domino!Tempore Paschali}
-\pagebreak
-\rubric{In Dominicis Adventus et Quadragesimæ}
-\gscore{ORBDm}{T}{}{Benedicamus Domino!In Dominicis Adventus et Quadragesimae}
-\rubric{In Dominicis per Annum}
-\gscore{ORBDe}{T}{}{Benedicamus Domino!In Dominicis per Annum}
-\rubric{In Festis Beatæ Mariæ Virginis}
-\gscore{ORBDd}{T}{}{Benedicamus Domino!In Festis Beatae Mariae Virginis}
-\rubric{In Festis Semiduplicibus}
-\gscore{ORBDc}{T}{}{Benedicamus Domino!In Festis Semiduplicibus}
-\pagebreak
-\rubric{In Festis Simplicibus}
-\gscore{ORBDf}{T}{}{Benedicamus Domino!In Festis Simplicibus}
-\rubric{In Officio Beatæ Mariæ Virginis in Sabbato}
-\gscore{ORBDg}{T}{}{Benedicamus Domino!In Officio B.M.V in Sabbato}
-\rubric{In Feriis}
-\gscore{ORBDi}{T}{}{Benedicamus Domino!In Feriis}
+\thispagestyle{empty}
 
-\newpage
+{\grechangedim{baselineskip}{65pt plus 1pt minus 5pt}{scalable}
+	\rubric{In Festis Solemnibus}
+	\gscore{ORBDa}{T}{}{Benedicamus Domino}
+	\rubric{In Festis Duplicibus}
+	\gscore{ORBDb}{T}{}{}
+	\rubric{Per Octavam Paschae}
+	\gscore{ORBDj}{T}{}{}
+	\rubric{Tempore Paschali}
+	\gscore{ORBDk}{T}{}{}
+	\rubric{In Dominicis Adventus et Quadragesimæ}
+	\gscore{ORBDm}{T}{}{}
+	\rubric{In Dominicis per Annum}
+	\gscore{ORBDe}{T}{}{}
+	\rubric{In Festis Beatæ Mariæ Virginis}
+	\gscore{ORBDd}{T}{}{}
+	\rubric{In Festis Semiduplicibus}
+	\gscore{ORBDc}{T}{}{}
+	\rubric{In Festis Simplicibus}
+	\gscore{ORBDf}{T}{}{}
+	\rubric{In Officio Beatæ Mariæ Virginis in Sabbato}
+	\gscore{ORBDg}{T}{}{}
+	\rubric{In Feriis}
+	\gscore{ORBDi}{T}{}{}
+}
 
-
-\feast{TCALR}{Toni Communes ad «Alleluia» in Fine Responsorium}
-	{Toni Communes}{ad «Alleluia»}{2}{}{}{}{}{}{}
-\gscore[n]{ORAL2}{T}{}{Toni Communes Ad Alleluia In Fine Responsorium}
-
-
-
-\end{document}
