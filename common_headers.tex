@@ -431,16 +431,14 @@ headsep=3mm,
 	\index[F]{\indexfeastname}
   }
   %% we typeset a two-column rank & rubrics block if one rank is filled in
-  \ifblank{#1}{}{%
-    \begin{parcolumns}[rulebetween]{2}
+  %% if the left rubric is filled in, we add a rule between the columns
+  \ifblank{#5}{\def\ourrule{}}{\def\ourrule{rulebetween}}
+  \ifblank{#1}{}{\vspace{-2mm}%
+    \begin{parcolumns}[\ourrule]{2}
 	\colchunk{%
-      {\centering\oldrank\par}%
-	  \ifblank{#4}{}{\rubric{\oldrubric}}
-	}
+      {\centering\oldrank\par}\rubric{\oldrubric}}%
 	\colchunk{%
-	  {\centering\newrank\par}%
-	  \ifblank{#5}{}{\rubric{\newrubric}}
-    }
+	  {\centering\newrank\par}\rubric{\newrubric}}%
 	\end{parcolumns}
 	\vspace{2mm}
   }
