@@ -1,13 +1,8 @@
 % !TEX TS-program = lualatex
 % !TEX encoding = UTF-8
 
-\feast{OR}{Ordinarium Divini Offici\\ ad Matutinum}
-	{Ordinarium}{Ordinarium}{1}{}{}{}{}{}{}
-\addcontentsline{toc}{chapter}{Ordinarium Divini Officii ad Matutinum}
-
-\intermediatetitle{Ante Divinum Officium}
-\rubric{Ante quam inchoëtur Officium, laudabiliter dicitur,
-sub singulari semper numero, sequens Orationes.}
+\intermediatetitle{Orationes ante Divinum Officium}
+\thispagestyle{empty}
 
 \begin{multicols}{2}
 \lettrine{A}{peri}, Dómine, os meum ad benedicéndum nomen sanctum tuum:
@@ -16,14 +11,14 @@ intelléctum illúmina, afféctum inflámma, ut digne, atténte ac devóte
 hoc officium recitáre váleam, et exaudíri mérear
 ante conspéctum divinae Majestátis tuae. Per Christum Dóminum nostrum. Amen.
 
+~
+
 \lettrine{D}{ómine}, in unióne illíus divínæ intentiónis,
 qua ipse in terris laudes Deo persolvísti,
 has tibi horas \rubric{(vel} hanc tibi horam\rubric{)} persólvo.
 \end{multicols}
 
-\rubric{Officium ad Matutinum, nisi aliter suo loco indicetur,
-per totum annum persolvitur juxta formam,
-quæ in Rubricis hujus Ordinarii exhibetur. Ante Matutinum dicitur secreto:}
+\sep
 
 \begin{multicols}{2}
 \lettrine{P}{ater noster}, qui es in cælis, sanctificétur nomen tuum.
@@ -49,62 +44,51 @@ Sanctórum communiónem, remissiónem peccatórum,
 carnis resurrectiónem, vitam ætérnam. Amen.
 \end{multicols}
 
-\gscore{ORIa}{T}{}{Domine labia mea!Tonus simplex}
-\gscore{ORIb}{T}{}{Domine labia mea!Tonus festivus}
+\pagebreak
 
-\intermediatetitle{Invitatorium et Hymnus}
+\feast{TC}{Toni Communes}
+	{Toni Communes}{Toni Communes}{1}{}{}{}{}{}{}
+\addcontentsline{toc}{chapter}{Toni Communes}
 
-\rubric{Postea dicitur conveniens Invitatorium, quod ante Psalmum bis cantatur,
-et ad singulos ejusdem Psalmi versus
-vel integrum vel dimidiatum ab asterisco \normaltext{\GreSpecial{*}} repetitur.}
+\intermediatetitle{In Principio Horarum}
+	
+{\grechangedim{baselineskip}{55pt plus 1pt minus 5pt}{scalable}
+\grechangedim{spaceabovelines}{-2mm}{scalable}
+\grechangedim{spacebeneathtext}{2mm}{scalable}
 
-\rubric{Expleto Psalmo, dicitur Hymnus Invitatorio respondens.}
+\rubric{In Dominicis et Festis novem Lectionum}
+\gscore{ORIa}{T}{}{Domine labia mea!Tonus festivus}
 
-\intermediatetitle{In Officio novem Lectionum}
+\pagebreak
 
-\rubric{Expleto Hymno, dicuntur Antiphonæ convenientes,
-quæ in Officiis ritus Duplicis ante et post Psalmos integræ recitantur;
-in Officiis autem ritus Semiduplicis initio Psalmi inchoantur tantum
-et usque ad asteriscum \normaltext{\GreSpecial{*}} perducuntur,
-atque in fine integræ pronuntiantur.}
+\rubric{In Feriis et Festis simplicibus}
+\gscore{ORIc}{T}{}{Domine labia mea!Tonus ferialis}
 
-\rubric{In fine omnium Psalmorum additur \vvrub \normaltext{Glória Patri, et Fílio,~\psstar et Spirítui Sancto.}
-\rrrub \normaltext{Sicut erat in princípio, et nunc, et semper,~\psstar et in sǽcula sæculórum. Amen.}
-nisi aliter notatur.}
+\vfill\sep{}\vfill\pagebreak
+
+
+\feast{TCORa}{Absolutiones et Benedictiones}
+	{Toni Communes}{Absolutiones et Benedictiones}{1}{}{}{}{}{}{}
 
 \nocturn{1}
-\rubric{Sub congruentibus Antiphonis dicuntur tres Psalmi,
-ac deinde subjungitur Versus, prouti Officium occurrens requirit.
-Post Versum cujuslibet Nocturni dicitur:}
 
 \unindexedscore{ORPN}
 
 \smalltitle{Absolutio}
 \gscore[n]{ORA}{T}{}{Absolutio}
 
-\smalltitle{Benedictiones et Lectiones}
-
 \gscore[n]{ORLb}{T}{}{Benedictio!Tonus simplex}
+\pagebreak
 \gscore[n]{ORLc}{T}{}{Benedictio!Tonus solemnis}
 
-\rubric{Extra Chorum, quando ab uno tantum recitatur Officium,
-ante singulas Lectiones, dicitur: \normaltext{Jube, Dómine, benedícere}
-et subjungitur congruens Benedictio.
-Ab Epsicopo autem, ultimam Matutini Lectionem cantaturo,
-item dicitur: \normaltext{Jube, Dómine, benedícere};
-et respondetur a Choro: \normaltext{Amen.}}
+\vspace{\baselineskip}
 
-\rubric{Deinde dicuntur in unoquoque Nocturno Lectiones,
-prouti Officium occurrens requirit, et in fine cujuslibet Lectionis additur:}
+\rubric{In fine Lectionum:}
 
 \gscore[n]{ORLd}{T}{}{In fine lectionum!Tonus simplex}
 \gscore[n]{ORLe}{T}{}{In fine lectionum!Tonus solemnis}
 
-\rubric{Post quamlibet vero Lectionem, quae Hymnum \normaltext{Te Deum}
-immediate non præcedat, congruens dicitur Responsorium,
-et in fine ultimi Responsorii cujuslibet Nocturni additur Versus:
-\normaltext{Glória Patri, et Fílio, et Spirítui Sancto},
-et Responsorium a signo \GreSpecial{+} repetitur, nisi aliter notatur.}
+}%% end \grechangedim{baselineskip}, spaceabovelines, spacesbeneathtext
 
 \rubric{Benedictiones pro aliis Lectionibus:}
 
@@ -118,13 +102,8 @@ illúminet sensus et corda nostra.
 
 \nocturn{2}
 
-\rubric{Sub congruentibus item Antiphonis dicuntur tres Psalmi et Versus,
-sicut in \Rnum{1} Nocturno.
-Post Versus dicitur \normaltext{Pater noster} secreto usque ad
-\vvrub \normaltext{Et ne nos indúcas in tentatiónem.}
-\rrrub \normaltext{Sed líbera nos a malo.}}
-
 \smalltitle{Absolutio}
+
 \rubric{\emph{Absolutio 2.}}
 Ipsíus píetas et misericódi\textit{a nos} \textbf{ád}juvet,~\GreSpecial{*}
 qui cum Patre et Spíritu Sancto vivit et regnat in sǽcula sæculórum.
@@ -146,13 +125,8 @@ accéndat Deus in córdibus nostris.
 
 \nocturn{3}
 
-\rubric{Sub congruentibus item Antiphonis dicuntur tres Psalmi et Versus,
-sicut in \Rnum{1} Nocturno.
-Post Versus dicitur \normaltext{Pater noster} secreto usque ad
-\vvrub \normaltext{Et ne nos indúcas in tentatiónem.}
-\rrrub \normaltext{Sed líbera nos a malo.}}
-
 \smalltitle{Absolutio}
+
 \rubric{\emph{Absolutio 3.}}
 A vínculis peccató\textit{rum nos}\textbf{tró}rum~\GreSpecial{*}
 absólvat nos omnípotens et miséricors Dóminus.
@@ -202,21 +176,6 @@ deleántur nostra delícta.
 
 \intermediatetitle{In Officio trium Lectionum}
 
-\intermediatetitle{In Nocturno}
-
-\rubric{In Festis et Octavis Paschatis et Pentecostes,
-omnia dicuntur ut in Proprio de Tempore.
-In ceteris trium Lectionum Officiis, post Hymnum dicuntur Antiphonæ convenientes, 
-quæ initio Psalmi inchoantur tantum et usque ad asteriscum
-\normaltext{\GreSpecial{*}} perducuntur, ac deinde in fine integræ pronuntiantur.}
-
-\rubric{Sub eisdem vero Antiphonis dicuntur novem Psalmi Feriæ currentis,
-quibus subjungitur Versus in \Rnum{3} Nocturno positus,
-omissis Versibus pro \Rnum{1} et \Rnum{2} Nocturno assignatis.
-Post Versus dicitur \normaltext{Pater noster} secreto usque ad
-\vvrub \normaltext{Et ne nos indúcas in tentatiónem.}
-\rrrub \normaltext{Sed líbera nos a malo.}}
-
 \smalltitle{Absolutio}
 
 \rubric{Feria \Rnum{2} et \Rnum{5} \normaltext{Exáudi, Dómine},
@@ -225,9 +184,6 @@ Feria \Rnum{3} et \Rnum{6} \normaltext{Ipsíus píetas},
 ut in \Rnum{2} Nocturno.
 Feria \Rnum{4} et Sabbato \normaltext{A vínculis},
 ut in \Rnum{3} Nocturno.}
-
-\rubric{Deinde leguntur Lectiones cum Responsoriis,
-prouti Officium occurens requirit ; et ante eas dicuntur sequentes.}
 
 \smalltitle{Benedictiones}
 
@@ -286,7 +242,7 @@ Ad societátem cívium \textit{super}\textbf{nó}rum~\GreSpecial{*}
 perdúcat nos Rex Angelórum.
 \hspace{\specialcharhsep}\rr Amen.
 
-\intermediatetitle{B.M.V.\ in Sabbato}
+\intermediatetitle{In Officio B.M.V.\ in Sabbato}
 
 \rubric{In Nocturno Antiphonæ, Psalmi et Versus de Sabbato.
 Post Versus dicitur \normaltext{Pater noster} secreto usque ad
@@ -318,105 +274,7 @@ Per Vír\textit{ginem} \textbf{ma}trem~\GreSpecial{*}
 concédat nobis Dóminus salútem et pacem.
 \hspace{\specialcharhsep}\rr Amen.
 
-\intermediatetitle{Te Deum}
-
-\rubric{Post ultimam Lectionem, in omnibus Dominicis per Annum,
-etiam repositis vel anticipatis, in Vigilia Epiphaniæ,
-in Festis cujusvis ritus, excepto tamen sanctorum Innocentium Festo,
-nisi hoc in Dominicam indicat, aut ritu gaudeat Duplici I classis,
-per omnes Octavas, et in Officio sanctæ Mariæ in Sabbato,
-dicitur Hymnus Ambrosianus.
-In Adventu autem, et a Dominica Septuagesimæ usque ad Sabbatum sanctum inclusive,
-non dicitur nisi in Festis; a Paschate vero usque ad Pentecosten inclusive,
-dicitur etiam in feriali Officio, excepta Feria \Rnum{2} Rogationum.
-Aliis Temporibus numquam dicitur in feriali Officio.
-Quando vero Hymnus prædictus omittitur,
-ejus loco dicitur \Rnum{9} aut \Rnum{3} Responsorium.}
-
-\intermediatetitle{Conclusio}
-
-\rubric{Dicto \normaltext{Te Deum}, aut ultimo Responsorio,
-statim incipiuntur Laudes a Versu \normaltext{Deus, in adjutórium}.
-Si non sequent Laudes, post Hymnum \normaltext{Te Deum},
-vel post ultimum Responsorium, dicitur:}
-
-\unindexedscore{ORDV}
-
-\rubric{Hic versus non dicitur ab eo, qui non est saltem in ordine diaconatus;
-sed ejus loco substituitur:}
-
-\versiculus{Dómine, exáudi oratiónem meam.}{Et clamor meus ad te véniat.}
-\vv Orémus.
-\rubric{Deinde cantatur oratio et respondetur \normaltext{Amen.}}
-
-\versiculus{Dóminus vobíscum.}{Et cum spíritu tuo.}
-\rubric{vel \normaltext{Dómine, exáudi}, etc.}
-\rubric{\normaltext{Benedicámus Dómino} secundum diem, pag.\ \pageref{M-TCBD}.}
-\versiculus{Fidélium ánimæ per misericórdiam Dei requiéscant in pace.}{Amen.}
-
-\rubric{Deinde dicitur \normaltext{Pater noster} totum secreto.}
-
-\newpage
-
-\feast{TC}{Toni Communes}
-	{Toni Communes}{Toni Communes}{1}{}{}{}{}{}{}
-\addcontentsline{toc}{chapter}{Toni communes}
-
-\feast{TCI}{Psalmi Toni Invitatorii}
-	{Toni Communes}{Psalmi Toni Invitatorii}{2}{}{}{}{}{}{}
-	
-\smalltitle{Tonus 2d}
-\gscore{ORIP2d}{T}{}{Venite exsultemus!Tonus 2d}
-
-\smalltitle{Tonus 3c}
-\gscore{ORIP3c}{T}{}{Venite exsultemus!Tonus 3c}
-
-\smalltitle{Tonus 3c2}
-\rubric{Hic tonus ad libitum pro tono 3c substitui potest.}
-\gscore{ORIP3c2}{T}{}{Venite exsultemus!Tonus 3c2 ad lib.}
-
-\smalltitle{Tonus 3e}
-\gscore{ORIP3e}{T}{}{Venite exsultemus!Tonus 3e}
-
-\smalltitle{Tonus 4e}
-\gscore{ORIP4e}{T}{}{Venite exsultemus!Tonus 4e}
-
-\smalltitle{Tonus 4g}
-\gscore{ORIP4g}{T}{}{Venite exsultemus!Tonus 4g}
-
-\smalltitle{Tonus 4d}
-\gscore{ORIP4d}{T}{}{Venite exsultemus!Tonus 4d}
-
-\smalltitle{Tonus 4d2}
-\rubric{Hic tonus ad libitum pro tonis 4g et 4d substitui potest.}
-\gscore{ORIP4d2}{T}{}{Venite exsultemus!Tonus 4d2 ad lib.}
-
-\smalltitle{Tonus 5g}
-\gscore{ORIP5g}{T}{}{Venite exsultemus!Tonus 5g}
-
-\smalltitle{Tonus 6a}
-\gscore{ORIP6a}{T}{}{Venite exsultemus!Tonus 6a}
-
-\smalltitle{Tonus 6f}
-\gscore{ORIP6f}{T}{}{Venite exsultemus!Tonus 6f}
-
-\smalltitle{Tonus 6f2}
-\rubric{Hic tonus ad libitum pro tono 6f substitui potest.}
-\gscore{ORIP6f2}{T}{}{Venite exsultemus!Tonus 6f2 ad lib.}
-
-\smalltitle{Tonus 6f3}
-\rubric{Hic tonus ad libitum pro tono 6f substitui potest.}
-\gscore{ORIP6f3}{T}{}{Venite exsultemus!Tonus 6f3 ad lib.}
-
-\smalltitle{Tonus 7a}
-\gscore{ORIP7a}{T}{}{Venite exsultemus!Tonus 7a}
-
-\smalltitle{Tonus 7g}
-\gscore{ORIP7g}{T}{}{Venite exsultemus!Tonus 7g}
-
-\smalltitle{Tonus 7g2}
-\rubric{Hic tonus ad libitum pro tono 7g substitui potest.}
-\gscore{ORIP7g2}{T}{}{Venite exsultemus!Tonus 7g2}
+\vspace{3cm}\sep{}
 
 \newpage
 
@@ -440,10 +298,40 @@ sed ejus loco substituitur:}
 \pagebreak
 
 \feast{TCTD}{Hymnus Ambrosianus}
-	{Toni Communes}{Hymnus Ambrosianus}{2}{}{}{}{}{}{}
-\thispagestyle{empty}
-\gscore{ORTDa}{T}{}{Te Deum laudamus!Tonus solemnis}
-\gscore{ORTDb}{T}{}{Te Deum laudamus!Tonus simplex}
+	{Toni Communes}{Hymnus Ambrosianus}{1}{}{}{}{}{}{}
+\rubric{Tonus solemnis:}
+\gscore{ORTDa}{H}{}{Te Deum laudamus!Tonus solemnis}
+\vspace{\baselineskip}
+\rubric{Tonus simplex:}
+\gscore{ORTDb}{H}{}{Te Deum laudamus!Tonus simplex}
+
+{\grechangedim{baselineskip}{55pt plus 1pt minus 5pt}{scalable}
+\grechangedim{spaceabovelines}{-2mm}{scalable}
+\grechangedim{spacebeneathtext}{2mm}{scalable}
+
+\feast{TCC}{Conclusio}
+	{Toni Communes}{Conclusio}{2}{}{}{}{}{}{}
+
+\rubric{Tonus solemnis:}
+\unindexedscore{ORDV}
+\rubric{Tonus simplex:}
+\unindexedscore{ORDVb}
+
+\rubric{Hic versus non dicitur ab eo, qui non est saltem in ordine diaconatus; sed ejus loco substituitur sequens.}
+
+\rubric{Tonus solemnis:}
+\unindexedscore{ORDE}
+\rubric{Tonus simplex:}
+\unindexedscore{ORDEb}
+
+} % end \grechangedim{baselineskip}, spaceabovelines, spacebeneathtext
+
+\rubric{Deinde cantatur oratio et respondetur \normaltext{Amen.}}
+
+\versiculus{Dóminus vobíscum.}{Et cum spíritu tuo.}
+\rubric{vel \normaltext{Dómine, exáudi}, etc.}
+
+\rubric{\normaltext{Benedicámus Dómino} secundum diem, ut infra.}
 
 \pagebreak
 
@@ -451,7 +339,7 @@ sed ejus loco substituitur:}
 	{Toni Communes}{ad «Benedicamus Domino»}{2}{}{}{}{}{}{}
 \thispagestyle{empty}
 
-{\grechangedim{baselineskip}{65pt plus 1pt minus 5pt}{scalable}
+{\grechangedim{baselineskip}{55pt plus 1pt minus 5pt}{scalable}
 	\rubric{In Festis Solemnibus}
 	\gscore{ORBDa}{T}{}{Benedicamus Domino}
 	\rubric{In Festis Duplicibus}
@@ -460,6 +348,7 @@ sed ejus loco substituitur:}
 	\gscore{ORBDj}{T}{}{}
 	\rubric{Tempore Paschali}
 	\gscore{ORBDk}{T}{}{}
+	\pagebreak
 	\rubric{In Dominicis Adventus et Quadragesimæ}
 	\gscore{ORBDm}{T}{}{}
 	\rubric{In Dominicis per Annum}
@@ -468,6 +357,7 @@ sed ejus loco substituitur:}
 	\gscore{ORBDd}{T}{}{}
 	\rubric{In Festis Semiduplicibus}
 	\gscore{ORBDc}{T}{}{}
+	\pagebreak
 	\rubric{In Festis Simplicibus}
 	\gscore{ORBDf}{T}{}{}
 	\rubric{In Officio Beatæ Mariæ Virginis in Sabbato}
@@ -476,3 +366,20 @@ sed ejus loco substituitur:}
 	\gscore{ORBDi}{T}{}{}
 }
 
+\vspace{1cm}
+
+\versiculus{Fidélium ánimæ per misericórdiam Dei requiéscant in pace.}{Amen.}
+
+\rubric{Deinde dicitur \normaltext{Pater noster} totum secreto.}
+
+\vspace{1cm}
+\sep
+\vspace{1cm}
+
+\intermediatetitle{Post Divinum Officium}
+
+\begin{multicols}{2}
+\lettrine{S}{acrosánctæ} et indivíduæ Trinitáti, crucifíxi Dómini nostri Jesu Christi humanitáti, beatíssimæ et gloriosíssimæ sempérque Vírginis Maríæ fœcúndæ integritáti, et ómnium Sanctórum universitáti sit sempitérna laus, honor, virtus et glória ab omni creatúra, nobísque remíssio ómnium peccatórum, per infiníta sǽcula sæculórum. Amen.
+\end{multicols}
+
+\pagebreak
