@@ -36,6 +36,7 @@
 \usepackage{etoolbox}
 \usepackage{enumitem}
 \usepackage{lettrine}
+\usepackage{tocloft}
 
 %%%%%%%%%%%%%%% HYPHENATION AND TYPOGRAPHICAL CONVENTIONS %%%%%%%%%%%%%%
 
@@ -303,6 +304,13 @@ headsep=3mm,
 %% Macro to print a separator
 
 \newcommand{\sep}{{\centering\greseparator{3}{20}\par}}
+
+%%%%%%%%%%%%%%% TABLE OF CONTENTS CONFIG %%%%%%%%
+
+\setlength{\cftbeforetoctitleskip}{0cm}
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\Large\sc}
+%% this, combined with the hspace above, is for centering the title. \centering does not work
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}\vfill\thispagestyle{empty}}
 
 %%%%%%%%%%%%%%% COLUMN MANAGEMENT %%%%%%%%%%%%%%%
 
