@@ -27,7 +27,7 @@
 	{}
 	{}
 \respref{1}{P0F2R1}{}
-\resprefcumgp{2}{P0F2R2}
+\respref{2}{P0F2R2}{}
 
 \feast{P0F3}{Feria III infra Octavam Paschæ}
 	{Proprium de Tempore}{Infra Octavam Paschæ}{2}{}
@@ -42,8 +42,8 @@
 	{Semiduplex}{Dies octavæ I. classis}{}
 	{}
 	{}
-\gscore{P0F4R1}{R}{1}{Ecce vicit leo}
-\gscore{P0F4R2}{R}{2}{Ego sum vitis vera}
+\resprefsinegp{1}{P0F4R1}
+\resprefcumgp{2}{P0F4R2}
 
 \feast{P0F5}{Feria V infra Octavam Paschæ}
 	{Proprium de Tempore}{Infra Octavam Paschæ}{2}{}
@@ -59,14 +59,14 @@
 	{}
 	{}
 \resprefsinegp{1}{P0F6R1}
-\gscore{P0F6R2}{R}{2}{Expurgate vetus fermentum}
+\respref{2}{P0F6R2}
 
 \feast{P0F7}{Sabbato in Albis}
 	{Proprium de Tempore}{Infra Octavam Paschæ}{2}{}
 	{Semiduplex}{Dies octavæ I. classis}{}
 	{}
 	{}
-\gscore{P0F7R1}{R}{1}{Christus resurgens ex mortuis}
+\respref{1}{P0F7R1}{}
 \gscore{APTPN2R3}{R}{2}{Isti sunt agni novelli}
 
 \feast{P1F1}{Dominica in Albis}
@@ -80,12 +80,11 @@
 \gscore{P0R2}{R}{3}{Dum transisset sabbatum}
 \nocturn{2}
 \gscore{P0F2R1}{R}{4}{Maria Magdalene et altera Maria}
-\gscore{P0F2R2}{R}{5}{Surrexit pastor bonus}
+\resprefsinegp{5}{P0F2R2}
 \gscore{P0F3R1}{R}{6}{Virtute magna}
 \nocturn{3}
 \gscore{P0F3R2}{R}{7}{De ore prudentis}
 \gscore{P0F6R1}{R}{8}{Surgens Jesus Dominus noster}
-
 
 \feast{P1F2}{Feria II}
 	{Proprium de Tempore}{Hebdomada I post Pascha}{3}{}
@@ -93,16 +92,18 @@
 	{}
 	{}
 \resprefsinegp{1}{P0F3R1}
-\respref{2}{P0F3R2}{}
-\rubric{In festis novem Lectionum,} \resprefcumgp{3}{P0F4R1}
+\resprefcumgp{2}{P0F3R2}
+\rubric{In festis novem Lectionum, omittitur in \rrub 2 \normaltext{Glória Patri} et dicitur \rrub 3; 
+quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
+\rubric{In festis novem Lectionum,} \respref{3}{P0F4R1}{}
 
 \feast{P1F3}{Feria III}
 	{Proprium de Tempore}{Hebdomada I post Pascha}{3}{}
 	{Feria}{IV. classis}{}
 	{}
 	{}
-\resprefsinegp{1}{P0F4R2}
-\resprefcumgp{2}{P0F6R1}
+\respref{1}{P0F4R2}{}
+\respref{2}{P0F6R1}{}
 \rubric{In festis novem Lectionum,} \respref{3}{P0F6R2}{}
 
 \feast{P1F4}{Feria IV}
@@ -112,7 +113,7 @@
 	{}
 \respref{1}{P0F7R1}{}
 \respref{2}{P0F2R2}{}
-\rubric{In festis novem Lectionum,} \resprefcumgp{3}{P0F4R1}
+\rubric{In festis novem Lectionum,} \respref{3}{P0F4R1}{}
 
 \feast{P1F5}{Feria V}
 	{Proprium de Tempore}{Hebdomada I post Pascha}{3}{}
@@ -120,16 +121,16 @@
 	{}
 	{}
 \resprefsinegp{1}{P0F3R1}
-\respref{2}{P0F3R2}{}
-\rubric{In festis novem Lectionum,} \resprefcumgp{3}{P0F4R1}
+\resprefcumgp{2}{P0F3R2}
+\rubric{In festis novem Lectionum,} \respref{3}{P0F4R1}{}
 
 \feast{P1F6}{Feria VI}
 	{Proprium de Tempore}{Hebdomada I post Pascha}{3}{}
 	{Feria}{IV. classis}{}
 	{}
 	{}
-\resprefsinegp{1}{P0F4R2}
-\resprefcumgp{2}{P0F6R1}
+\respref{1}{P0F4R2}{}
+\respref{2}{P0F6R1}{}
 \rubric{In festis novem Lectionum,} \respref{3}{P0F6R2}{}
 
 \feast{P1F7}{Sabbato}
@@ -139,14 +140,26 @@
 	{}
 \respref{1}{P0F7R1}{}
 \respref{2}{P0F2R2}{}
-\rubric{In festis novem Lectionum,} \resprefcumgp{3}{P0F4R1}
+\rubric{In festis novem Lectionum,} \respref{3}{P0F4R1}{}
 
 \feast{P2F1}{Dominica II post Pascha}
 	{Proprium de Tempore}{Dominica II post Pascha}{2}{}
 	{Semiduplex}{II. classis}{Tempus Paschale!Hebdomada 2}
 	{}
 	{}
-\rubric{Omnia ut in Dominica præcedentis.}
+\nocturn{1}
+\resprefsinegp{1}{P0F3R1}
+\respref{2}{P0F3R2}{}
+\gscore{P0F4R1}{R}{3}{Ecce vicit leo}
+
+\nocturn{2}
+\gscore{P0F4R2}{R}{4}{Ego sum vitis vera}
+\resprefsinegp{5}{P0F6R1}
+\gscore{P0F6R2}{R}{6}{Expurgate vetus fermentum}
+
+\nocturn{3}
+\gscore{P0F7R1}{R}{7}{Christus resurgens}
+\gscore{P0F2R2}{R}{8}{Surrexit pastor bonus}
 
 \feast{P2F2}{In Feriis Hebdomadæ II post Pascha}
 	{Proprium de Tempore}{Hebdomada II post Pascha}{2}{}
