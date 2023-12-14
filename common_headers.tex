@@ -154,7 +154,7 @@ headsep=3mm,
   %% #5 : the indexed name of the piece
   
   %% this prevents page breaks between the phantom section and its label, and the actual score.
-  \needspace{4\baselineskip} 
+  \needspace{2\baselineskip} 
   \protected@edef\@currentlabelname{#5}
   \phantomsection
   \label{#2}
@@ -302,8 +302,10 @@ headsep=3mm,
 \newcommand{\cdedrubric}{Commune Dedicationis Ecclesiæ, pag.\ \pageref{M-CDED}.}
 
 %% Macro to print a separator
-
 \newcommand{\sep}{{\centering\greseparator{3}{20}\par}}
+
+%% Macro to insert vertical space, such that there be only six staves with NABC on a page, where typically there are seven.
+\newcommand{\sixlinesvspace}{\vspace{14mm}}
 
 %%%%%%%%%%%%%%% TABLE OF CONTENTS CONFIG %%%%%%%%
 
@@ -462,7 +464,7 @@ headsep=3mm,
   \begin{center}
   {\large #1}
   \end{center}
- }
+}
 
 \newcommand{\nocturn}[1]{
   \intermediatetitle{In \Rnum{#1} Nocturno}
