@@ -86,7 +86,7 @@
 \gscore{P0F2R1}{R}{4}{Maria Magdalene et altera Maria}
 \resprefsinegp{5}{P0F2R2}
 {
-	\grechangedim{spaceabovelines}{-3mm}{fixed}
+	\grechangedim{spaceabovelines}{-3mm}{scalable}
 \gscore{P0F3R1}{R}{6}{Virtute magna}
 \pagebreak
 }
@@ -216,11 +216,15 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 \gscore{P3F2R2}{R}{2}{Ostendit mihi angelus}
 \rubric{In festis novem Lectionum,} \respref{3}{P3N1R3}{}
 
+\vspace{1mm}
 \feast{P3F3}{Feria III}
 	{Proprium de Tempore}{Hebdomada III post Pascha}{3}{}
 	{Feria}{IV. classis}{}
 	{}
 	{}
+
+\vspace{1cm}
+
 \gscore{P3F3R1}{R}{1}{Vidi Jerusalem descendentem}
 \gscore{P3F3R2}{R}{2}{In diademate}
 \rubric{In festis novem Lectionum,} \respref{3}{P3N2R3}{}
@@ -261,6 +265,8 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 \respref{2}{P3F2R2}{}
 \rubric{In festis novem Lectionum,} \resprefcumgp{3}{P3F3R1}
 
+\newpage
+
 \feast{P4F1}{Dominica IV post Pascha}
 	{Proprium de Tempore}{Dominica IV post Pascha}{2}{}
 	{Semiduplex}{II. classis}{Tempus Paschale!Hebdomada 4}
@@ -270,14 +276,47 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 \rubric{Sequentes Responsoria sumuntur etiam, si anticipantur Lectiones Feriæ II.}
 \gscore{P4N1R1}{R}{1}{Si oblitus fuero tui}
 \gscore{P4N1R2}{R}{2}{Viderunt te aquae Deus}
+
+\pagebreak
+\null\vfill
+{
+	\grechangedim{spaceabovelines}{10mm}{scalable}
 \gscore{P4N1R3}{R}{3}{Narrabo nomen tuum}
+}
+\vfill\newpage
+
+\null\vfill
 \nocturn{2}
+{
+	\grechangedim{spaceabovelines}{10mm}{scalable}
 \gscore{P4N2R1}{R}{4}{In Ecclesiis benedicite Deo}
+}
+\vfill\newpage
+
+\null\vfill
+{
+%	\grechangedim{spaceabovelines}{10mm}{scalable}
 \gscore{P4N2R2}{R}{5}{In toto corde meo}
+}
+\vfill\newpage
+
 \gscore{P4N2R3}{R}{6}{Hymnum cantate nobis}
+\pagebreak
+
+\null\vfill
+{
+%	\grechangedim{spaceabovelines}{10mm}{scalable}
 \nocturn{3}
 \gscore{P4N3R1}{R}{7}{Deus canticum novum}
+}
+\vfill\newpage
+
+\null\vfill
+{
+%	\grechangedim{spaceabovelines}{10mm}{scalable}
 \gscore{P4N3R2}{R}{8}{Bonum est confiteri}
+}
+\vfill\newpage
 
 \feast{P4F2}{Feria II}
 	{Proprium de Tempore}{Hebdomada IV post Pascha}{3}{}
@@ -368,6 +407,8 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 \respref{2}{P4N3R2}{}
 \rubric{In festis novem Lectionum,} \resprefcumgp{3}{P4F2R1}
 
+\newpage
+
 \feast{P5F5}{In Ascensione Domini}
 	{Proprium de Tempore}{In Ascensione Domini}{1}{}
 	{Duplex I. classis}{I. classis}{Jesu Christi, Domini nostri!Ascensio}
@@ -375,6 +416,7 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 	{}
 \nocturn{1}
 \gscore{P5F5N1R1}{R}{1}{Post passionem suam}
+\vspace{1cm}
 \gscore{P5F5N1R2}{R}{2}{Omnis pulchritudo Domini}
 \gscore{P5F5N1R3}{R}{3}{Exaltare Domine}
 \nocturn{2}
@@ -388,8 +430,16 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 \feast{P6F1}{Infra et post Octavam Ascensionis}
 	{Proprium de Tempore}{Infra et post Octavam Ascensionis}{2}{}
 	{}{}{}
-	{Infra Octavam et in die Octava, Responsoria ut in Festo. In Dominica infra Octavam, et Feria \Rnum{6} post Octavam, et Sabbato in Vigilia Pentecostes, \rr 8.\ ut infra.}
 	{}
+	{}
+\twocolrubric{
+	Infra Octavam et in die Octava, Responsoria ut in Festo. In Dominica infra Octavam, et Feria \Rnum{6} post Octavam, et Sabbato in Vigilia Pentecostes, \rrrub 8.\ ut infra.
+}{
+	\respref{1}{P5F5N1R1}{}
+	In Feriis, \resprefcumgp{2}{P5F5N1R2}{}
+	In Dominica et in Festis, \respref{2}{P5F5N1R3}
+	In Vigilia Pentecostes, \rrrub 1. \scorename{P5F5N3R1}, pag.\ \pageref{M-P5F5N3R1} et \rrrub 2.\ ut infra.
+}
 \gscore{P6N3R2}{R}{8}{Si enim non abiero}
 
 \feast{P7F1}{Dominica Pentecostes}
