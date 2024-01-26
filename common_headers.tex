@@ -49,6 +49,11 @@
 %% French is therefore to be kept until further notice.
 %\setotherlanguage[variant=ecclesiastic, hyphenation=liturgical, usej=true]{latin}
 
+%% Specifically for the Liber Responsorialis, we need to be able to create widows and orphans.
+\widowpenalty=0
+\clubpenalty=0
+\flushbottom
+
 %%%%%%%%%%%%%%% GEOMETRY %%%%%%%%%%%%%%%
 
 %% This should mimic the layout of the recent Solesmes books.
@@ -460,7 +465,6 @@ headsep=3mm,
 }
 
 \newcommand{\intermediatetitle}[1]{
-  \needspace{8\baselineskip}
   \begin{center}
   {\large #1}
   \end{center}
