@@ -286,6 +286,9 @@ headsep=3mm,
 %% Macro to print the common rubric that signals the Paschaltide three-psalm one-antiphon rule
 \newcommand{\tptresrubric}{\rubric{Tempore Paschali tres Psalmi sub hac Antiphona dicuntur.}}
 
+%% Macro to print a rubric when a nocturn title is at the bottom of a page.
+\newcommand{\utinfrarubric}{{\centering\rubric{Ut infra.}\par}}
+
 %% Macros to print various rubrics related to commons
 \newcommand{\respdetemp}{Responsoria de Tempore.}
 \newcommand{\apexrubric}{Commune Apostolorum, pag.\ \pageref{M-APEX}.}
@@ -310,7 +313,11 @@ headsep=3mm,
 \newcommand{\sep}{{\centering\greseparator{3}{20}\par}}
 
 %% Macro to insert vertical space, such that there be only six staves with NABC on a page, where typically there are seven.
-\newcommand{\sixlinesvspace}{\vspace{14mm}}
+\newcommand{\sixlinesvspace}{\vspace{18mm}}
+%% Macro to insert vertical space, such that there be only three staves with NABC on a page, where typically there are seven.
+\newcommand{\threelinesvspace}{\vspace{16\baselineskip}}
+%% Macro to insert vertical space, such that there be only five staves with NABC and a nocturn title
+\newcommand{\fiveplustitlevspace}{\vspace{22mm}}
 
 %%%%%%%%%%%%%%% TABLE OF CONTENTS CONFIG %%%%%%%%
 
@@ -465,9 +472,9 @@ headsep=3mm,
 }
 
 \newcommand{\intermediatetitle}[1]{
-  \begin{center}
-  {\large #1}
-  \end{center}
+  \vspace*{0.4\baselineskip}
+  {\centering \large #1\par}
+  \vspace*{0.4\baselineskip}
 }
 
 \newcommand{\nocturn}[1]{
