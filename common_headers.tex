@@ -159,7 +159,8 @@ headsep=3mm,
   %% #5 : the indexed name of the piece
   
   %% this prevents page breaks between the phantom section and its label, and the actual score.
-  \needspace{2\baselineskip} 
+  %\needspace{2\baselineskip} 
+  %% but for Liber Responsorialis specifically, we do explicit typesetting of every page, so it is actually harmful, preventing voluntary orphans
   \protected@edef\@currentlabelname{#5}
   \phantomsection
   \label{#2}
