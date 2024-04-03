@@ -4,12 +4,7 @@ Mode 1 en c4
 
 Mode 2 en f3
 
-<sp>V/</sp> Gló(e_f!gwh/hi|qlhgppt2pehj)ri(h|ta)a(h|ta) 
-Pa(hg|cllsc3)tri,(hi|pe) et(gh|pe) 
-Fí(f|ta)li(f!gwhg__|ql!cl-ppt1)o,(gf..|cl-) (;) 
-et(f|ta) 
-Spi(f|ta)rí(f!gwh_GFE__|ql-ppt1su1sut2)tu(f|vi)i(hg/hih|cllsc2tohg) 
-Sanc(hv_GFg>|ci-vi>hg)to.(ffoe.|pr) (::)
+<sp>V/</sp> Gló(e_f!gwh/hi|qlhgppt2pehj)ri(h|ta)a(h|ta) Pa(hg|cllsc3)tri,(hi|pe) et(gh|pe) Fí(f|ta)li(f!gwhg__|ql!cl-ppt1)o,(gf..|cl-) (;) et(f|ta) Spi(f|ta)rí(f!gwh_GFE__|ql-ppt1su1sut2)tu(f|vi)i(hg/hih|cllsc2tohg) Sanc(hv_GFg>|ci-vi>hg)to.(ffoe.|pr) (::)
 
 Mode 3 en c4
 
@@ -36,14 +31,11 @@ San(gh/ihhs|//pohhpp2)cto.(gf..|cl-) (::)
 
 Mode 5 en c3
 
-<sp>V/</sp> Gló(h|ta)ri(h|ta)a(hi_/hshs_/fgf|pe-hids-hjtohj) Pa(hf|clhhlsc3)tri,(fi|pehh) et(gh|pe) Fí(h|vi)li(h_g!hwihi|//cl-`qlhg!pohg)o,(ih..|cl-) (;) et(h|ta) Spi(h|ta)rí(hg/hg|//pf1lsc2)tu(gf|cllsc3)i(h_i|peS) San(gxh_g!hwiHGFg|//////cl-`qlhg!vshgsu2vihg)cto.(gf..|cl-) (::)
+<sp>V/</sp> Gló(h|ta)ri(h|ta)a(hi_/hshs_/fgf|pe-hids-hjtohj) Pa(hf|clhhlsc3)tri,(fi|pehh) et(gh|pe) Fí(h|vi)li(h_g!hwihi|//cl-`qlhg!pohg)o,(ih..|cl-) (;) et(h|ta) Spi(h|ta)rí(hg/hg|//pf1lsc2)tu(gf|cllsc3)i(h_i|peS) San(gxh_g!hwiH__GFg|//////cl-`qlhg!vshgsu2vihg)cto.(gf..|cl-) (::)
 
-Mode 8 en c4
+Mode 5 en c4
 
-(c4) <sp>V/</sp> Gló(j|vihh)ri(ji|clhhlsc3)a(jkj|tohk|iji|tohk|hhog|prhi) 
-Pa(ih|cllsc3)tri,(ij|pe) et(hi|pe) Fí(g|ta)li(g!hwih__|ql!cl-ppt1)o,(hg..|cl-) (;) 
-et(g|ta) Spi(g|ta)rí(ixhi_HG/hih|////pe-hgsu2/tohi)tu(ghf|to)i(g_h|peS) 
-San(h!iwji/jkJ_IH|/////qlhi!clhippt1to-1hmsu2)cto.(h_i_HGhg..|pe-1su2/cl-) (::)
+<sp>V/</sp> Gló(j|ta)ri(j|ta)a(jk_/jsjs_hih|pe-hjds-hktohi) Pa(jh|clhhlsc3)tri,(hk|pehh) et(ij|pe) Fí(j|vi)li(j_i!jwkjk|cl-hiqlhi!pohi)o,(kj..|cl-hi) (;) et(j|tahg) Spi(j|tahg)rí(ji/ji|//pf1hglsc2)tu(ih|cllsc3)i(j_k|peShi) San(ixj_i!jwkJ__IHi|////cl-hjqlhj!vshjsu2vihj)cto.(ih..|cl-hh) (::) 
 
 mode 6 en c4
 
@@ -59,8 +51,52 @@ Mode 7 en c2
 
 Mode 7 en c3
 
-(c3) Gló(i!jwk_JI|ql-hjppt1su2)ri(hg|cllsc3)a(h_ihog|peS``pr) Pa(ig|cllsc3)tri,(hi|pe) et(hi|pe) Fí(i|ta)li(i!jwkj__|qlhh!cl-hhppt1)o,(ji..|cl-) (;) et(i|ta) Spi(i|ta)rí(ijijv_IH|////tr-1su2)tu(ih|cllsc3)i(h!iwji/jkj|ql!clppt1tohm) San(i_h!iwjij|////cl-`qi!po)cto.(iv_HGhg..|//ci-cl-) (::)
+<sp>V/</sp> Gló(i!jwk_JI|ql-hjppt1su2)ri(hg|cllsc3)a(h_ihog|peS``pr) Pa(ig|cllsc3)tri,(hi|pe) et(hi|pe) Fí(i|ta)li(i!jwkj__|qlhh!cl-hhppt1)o,(ji..|cl-) (;) et(i|ta) Spi(i|ta)rí(ijij_IH|////tr-1hhsu2)tu(ih|cllsc3)i(h!iwji/jkj|ql!clppt1tohm) San(i_h!iwjij|////cl-`qi!po)cto.(iv_HGhg..|//ci-hhcl-hh) (::)
 
 Mode 8 en c4
 
-<sp>V/</sp> Gló(j|vihh)ri(ji|clhhlsc3)a(jkj|tohk|iji|tohk|hhog|prhi) Pa(ih|cllsc3)tri,(ij|pe) et(hi|pe) Fí(g|ta)li(g!hwih__|ql!cl-ppt1)o,(hg..|cl-) (;) et(g|ta) Spi(g|ta)rí(ixhi_HG/hih|////pe-hgsu2/tohi)tu(ghf|to)i(g_h|peS) San(h!iwji/jkJ_IH|/////qlhi!clhippt1to-1hmsu2)cto.(h_i_HGhg..|pe-1su2/cl-) (::)
+<sp>V/</sp> Gló(j|vihh)ri(ji|clhhlsc3)a(jkj|tohk|iji|tohk|hhog|prhi) Pa(ih|cllsc3)tri,(ij|pe) et(hi|pe) Fí(g|ta)li(g!hwih__|ql!cl-ppt1)o,(hg..|cl-) (;) et(g|ta) Spi(g|ta)rí(ixhi_HG/hih|////pe-hgsu2/tohi)tu(ghf|to)i(g_h|peS) San(iyh!iwji/jkJ_IH|/////qlhi!clhippt1to-1hmsu2)cto.(h_i_HGhg..|pe-1hgsu2/cl-hh) (::)
+
+
+Alleluias
+
+mode 1 in c4 : cf. LH83 p. 513
+
+<c><i>T.P.</i></c> {A}l(fg~|pe~)le(ed__/fh_/ghg/ef!gv/hf/gvFE___|cl-pe-1tohhschhclhhvi-hhsut2)lú(d!ewfef>|ql!po>ppt1)ia.(ed..|cl-) (::)
+
+mode 2 in f3 : cf. LH83 p. 514
+
+<i><c>T.P.</c></i> {A}l(f_g>|pe>1)le(e_0//hvGF|cippt1)lú(h_0//igh>|po>ppu1)ia.(f.|ta) (::)
+
+mode 4 in c4 : cf. LH83 p. 516
+
+<c><i>T.P.</i></c> {A}l(fh~|pe~)le(hvGFEC_____d_fEDf_h_/ghf___foe|vi-sut4peSsu2pe-1toSpi)lú(egffs|tosthh)ia.(fe..|cl-) (::)
+
+mode 6 in c4b : cf. P7F4R2 Cantus 007028, from H. WARNING add ix if score is in (c4).
+
+al(fg~|pe~)le(g_0//ivHG|//////ta-/cilsc2)lú(hg/gofgv|cl!pivi)ia.(gf..|cl-) (::) 
+
+mode 7 in c3 : cf. LH83 p. 517
+
+<c><i>T.P.</i></c> {A}l(d_f!gwh_/iv|```ql-ppt2/vihj)le(hv_GFg/egf/ge|//ci-vi/tohh/clhh)lú(efe___|toS)ia.(e.|ta) (::) 
+
+mode 3 : double alleluia LH1983 p500
+
+mode 5 : double alleluia LH1983 p500
+
+mode 3 : simple alleluia (embedded, not detached from the R/) LH83 501
+
+
+c4 mode 3 from P0F5R2 (authentic all. from H) also present in P5F5N1R1 and P6N3R2 (restituted from old non-H sources):
+=> this one is used by HPS on 0325N2R1 so we shall do the same
+
+al(g_h>|pe>1lsl2)le(gv_//dfde_//|vi-tr-3|gv_//dfde_//gv_/hf/ghg|vi-tr-3//vi-cllsc3tohh)lú(egffs|tosthh)ia.(fe..|cl-) (::) 
+
+Also in c4 mode 3 from P5F5N3R1 (restituted, absent from H) => this looks a lot like LH83 501
+
+al(f!gw!h>|ql>ppt1)le(ixh_0//ifg|/////poppu1|//iygh!iwjIH|///qlhippt2su2|ig__ixhwi_HG|cl-ql-su2)lú(egffs|tosthh)ia.(fe..|cl-) (::) 
+
+Also in c4 mode 3 from P7F2R2 (from H):
+
+al(h>|vi>)le(ixg_0//ivHG_0/f_0//gvFD_0/fg!ivHGFghg|//////ta-/visu1sut1lsc2/ta-/visu1sut1lsc2/vipp2su3lsc2/tohi)lú(egffs|tosthh)ia.(fe..|cl-) (::) 
+
