@@ -60,43 +60,11 @@ Mode 8 en c4
 
 Alleluias
 
-mode 1 in c4 : cf. LH83 p. 513
-
-<c><i>T.P.</i></c> {A}l(fg~|pe~)le(ed__/fh_/ghg/ef!gv/hf/gvFE___|cl-pe-1tohhschhclhhvi-hhsut2)lú(d!ewfef>|ql!po>ppt1)ia.(ed..|cl-) (::)
-
-mode 2 in f3 : cf. LH83 p. 514
-
-<i><c>T.P.</c></i> {A}l(f_g>|pe>1)le(e_0//hvGF|cippt1)lú(h_0//igh>|po>ppu1)ia.(f.|ta) (::)
-
-mode 4 in c4 : cf. LH83 p. 516
-
-<c><i>T.P.</i></c> {A}l(fh~|pe~)le(hvGFEC_____d_fEDf_h_/ghf___foe|vi-sut4peSsu2pe-1toSpi)lú(egffs|tosthh)ia.(fe..|cl-) (::)
-
-mode 6 in c4b : cf. P7F4R2 Cantus 007028, from H. WARNING add ix if score is in (c4).
-
-al(fg~|pe~)le(g_0//ivHG|//////ta-/cilsc2)lú(hg/gofgv|cl!pivi)ia.(gf..|cl-) (::) 
-
-mode 7 in c3 : cf. LH83 p. 517
-
-<c><i>T.P.</i></c> {A}l(d_f!gwh_/iv|```ql-ppt2/vihj)le(hv_GFg/egf/ge|//ci-vi/tohh/clhh)lú(efe___|toS)ia.(e.|ta) (::) 
-
-mode 3 : double alleluia LH1983 p500
-
-mode 5 : double alleluia LH1983 p500
-
-mode 3 : simple alleluia (embedded, not detached from the R/) LH83 501
-
-
-c4 mode 3 from P0F5R2 (authentic all. from H) also present in P5F5N1R1 and P6N3R2 (restituted from old non-H sources):
-=> this one is used by HPS on 0325N2R1 so we shall do the same
-
-al(g_h>|pe>1lsl2)le(gv_//dfde_//|vi-tr-3|gv_//dfde_//gv_/hf/ghg|vi-tr-3//vi-cllsc3tohh)lú(egffs|tosthh)ia.(fe..|cl-) (::) 
-
-Also in c4 mode 3 from P5F5N3R1 (restituted, absent from H) => this looks a lot like LH83 501
-
-al(f!gw!h>|ql>ppt1)le(ixh_0//ifg|/////poppu1|//iygh!iwjIH|///qlhippt2su2|ig__ixhwi_HG|cl-ql-su2)lú(egffs|tosthh)ia.(fe..|cl-) (::) 
-
-Also in c4 mode 3 from P7F2R2 (from H):
-
-al(h>|vi>)le(ixg_0//ivHG_0/f_0//gvFD_0/fg!ivHGFghg|//////ta-/visu1sut1lsc2/ta-/visu1sut1lsc2/vipp2su3lsc2/tohi)lú(egffs|tosthh)ia.(fe..|cl-) (::) 
-
+1 (c4) Al(fg~|pe~he)le(ed__/f_h_/ghg_/ef@gv_/hf/gvFE___|cl-hepe-1hetoS2hevi-hepp2/clhe/vi-hesut2)lú(d!ewfef|qlhe!poheppt1){ia}.(ed..|cl-he) (::) 
+2 (f3) Al(f_g>|pe>1he)le(e_//hvGF|ta-he/vihesu1sut1lsc3)lú(h_0//igh>|vi-hepo>he){ia}.(f.|ta) (::)
+3 (c4) Al(g_h>|pe>1he)le(gv_|vi-he|dfde_2/gv_|tr-3hevi-he|dfde_2/gv_|tr-3hevi-he|//hf/ghg|clhelsc2to)lú(egffs|tohesthg){ia}.(fe..|cl-he) (::)
+4 (c4) Al(fh~|pe~he)le(hvGF___EC|vi-hesut2su2|d_0//fvEDfhg___|vi-hd/cihgtoShe|hffoe|clhe!pihe)lú(egffs|tohesthg){ia}.(fe..|cl-he) (::)
+5 (c3) Al(d_f>|pe>1he)le(gxe_0//hv_h_f!gwhG__E/fwg_FE|/////vi-heppu1cl-heql-hesut2qi-hesu2)lú(de!fv_EDe|//ci-hepp2vihe){ia}.(ed..|cl-he) (::)
+6 (c4) Al(fg~|pe~)le(ixg_0//ivHG|//////ta-he/cihelsc2)lú(hg/gofgv|clhe!pihevihe){ia}.(gf..|cl-he) (::)
+7 (c3) Al(d_f!gwh/i>|```qlppt2vi>hh)le(hv_GFg|ci-vi|egf/ge|tocl)lú(efe___|toS){ia}.(e.|ta) (::) 
+8 (c4) Al(g|vi)le(g_0//hfg|vi-hepohh)lú(g!hwihi>|qlhe!po>heppt1){ia}.(hg..|cl-) (::)
