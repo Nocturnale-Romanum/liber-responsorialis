@@ -55,35 +55,53 @@ carnis resurrectiónem, vitam ætérnam. Amen.
 \feast{TCGP}{Toni Communes ad «Gloria Patri»}
 	{Toni Communes}{ad «Gloria Patri»}{2}{}{}{}{}{}{}
 \thispagestyle{empty}
+\vspace{\baselineskip}
 
-\gscore{ORGP1}{T}{}{Gloria Patri in fine Resp.}
-\gscore{ORGP2}{T}{}{}
-\gscore{ORGP3}{T}{}{}
-\gscore{ORGP4}{T}{}{}
-\gscore{ORGP5}{T}{}{}
-\gscore{ORGP6}{T}{}{}
-\gscore{ORGP7}{T}{}{}
-\gscore{ORGP8}{T}{}{}
+{\grechangedim{spacebeneathtext}{2mm}{scalable}
+\grechangedim{spaceabovelines}{2mm}{scalable}
+
+	\gscore{ORGP1}{T}{}{Gloria Patri in fine Resp.}
+	\gscore{ORGP2}{T}{}{}
+	\gscore{ORGP3}{T}{}{}
+	
+	~\par
+	\newpage
+	\vspace*{\baselineskip}
+	\gscore{ORGP4}{T}{}{}
+	\gscore{ORGP5}{T}{}{}
+	\gscore{ORGP6}{T}{}{}
+	
+	\null\par\vfill	
+	\newpage
+
+	\gscore{ORGP7}{T}{}{}
+	\gscore{ORGP8}{T}{}{}
+}
 
 \feast{TCALR}{Toni Communes ad «Alleluia»\\in Fine Responsoriorum}
 	{Toni Communes}{ad «Alleluia»}{2}{}{}{}{}{}{}
 \thispagestyle{empty}
-\vspace{-1mm}
+
 \gscore[n]{ORAL2}{T}{}{Alleluia in fine Responsoriorum}
+
+\vfill
+\sep
+\vfill
 
 \pagebreak
 
 \feast{TCTD}{Hymnus Ambrosianus}
 	{Toni Communes}{Hymnus Ambrosianus}{1}{}{}{}{}{}{}
-\rubric{Tonus solemnis:}
-\gscore{ORTDa}{T}{}{Te Deum laudamus!Tonus solemnis}
-\vspace{\baselineskip}
-\rubric{Tonus simplex:}
-\gscore{ORTDb}{T}{}{Te Deum laudamus!Tonus simplex}
 
-%\grechangedim{baselineskip}{55pt plus 1pt minus 5pt}{scalable}
-%\grechangedim{spaceabovelines}{-2mm}{scalable}
-%\grechangedim{spacebeneathtext}{2mm}{scalable}
+{\gresetnabc{1}{invisible} %% I really think NABC is not needed for the Te Deum
+
+	\rubric{Tonus solemnis:}
+	\gscore{ORTDa}{T}{}{Te Deum laudamus!Tonus solemnis}
+	\vspace{\baselineskip}
+	\rubric{Tonus simplex:}
+	\gscore{ORTDb}{T}{}{Te Deum laudamus!Tonus simplex}
+
+}
 
 \pagebreak
 
