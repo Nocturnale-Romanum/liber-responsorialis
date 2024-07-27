@@ -1,20 +1,28 @@
 % !TEX TS-program = lualatex
 % !TEX encoding = UTF-8
 
+\documentclass[liber-responsorialis_sanctorale.tex]{subfiles}
+
+\ifcsname preamble@file\endcsname
+  \setcounter{page}{\getpagerefnumber{M-lr35_commune_bmv}}
+\fi
+
+\begin{document}
+
 \feast{CBMV}{Commune Beatæ Mariæ Virginis}
 	{Commune Sanctorum}{Commune Beatæ Mariæ Virginis}{2}{}{}{}{}{}{}
 \addcontentsline{toc}{section}{Commune Beatæ Mariæ Virginis}
 
 \nocturn{1}
-\gscore{CBMVN1R1}{R}{1}{Sancta et immaculata!\emph{cum} Alleluia}
-\gscore{CBMVN1R2}{R}{2}{Congratulamini...parvula}
-\gscore{CBMVN1R3}{R}{3}{Beata es Maria!\emph{cum} Alleluia}
+\gscore{CBMVN1R1}{R}{1}{Sancta et immaculata\idxnewline\emph{cum} Alleluia}
+\gscore{CBMVN1R2}{R}{2}{Congratulamini... parvula}
+\gscore{CBMVN1R3}{R}{3}{Beata es Maria\idxnewline\emph{cum} Alleluia}
 \nocturn{2}
 \gscore{CBMVN2R1}{R}{4}{Sicut cedrus}
 \gscore{CBMVN2R2}{R}{5}{Quae est ista quae processit}
 \gscore{CBMVN2R3}{R}{6}{Ornatam in monilibus}
 \nocturn{3}
-\gscore{CBMVN3R1}{R}{7}{Felix namque es!\vvrub Quia ex te}
+\gscore{CBMVN3R1}{R}{7}{Felix namque es\idxnewline\vvrub Quia ex te}
 \vspace{-0.25in}
 \begin{tabbing}
 {\hskip 0.5em}\={\hskip 1.8em}\={\hskip 2.2em}\={\hskip 2.0em}\={\hskip 1.5em}\={\hskip 1.8em}\={\hskip 2em}\={\hskip 1.7em}\={\hskip 3.2em}\={\hskip 2.8em}\=\\
@@ -55,6 +63,8 @@
 
 \intermediatetitle{Tempore Adventus}
 
-\gscore{OPBMR1}{R}{1}{Missus est!\vvrub Dabit ei}
+\gscore{OPBMR1}{R}{1}{Missus est Gabriel\idxnewline\vvrub Dabit ei}
 \gscore{A1N2R1}{R}{2}{Ave Maria}
-\gscore{OPBMR3}{R}{3}{Suscipe verbum!\vvrub Paries}
+\gscore{OPBMR3}{R}{3}{Suscipe verbum\idxnewline\vvrub Paries}
+
+\end{document}

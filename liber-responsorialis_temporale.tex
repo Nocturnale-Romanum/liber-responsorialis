@@ -1,0 +1,41 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8
+
+\documentclass[11pt, twoside, french]{book}
+
+\input{common_headers}
+\externaldocument[M-]{\subfix{liber-responsorialis_temporale}}
+
+\begin{document}
+
+\customsubfile{lrt01_prolegomena}
+\tocspace
+\customsubfile{lr10_tempus_adventus}
+\customsubfile{lr11_tempus_nativitatis}
+\customsubfile{lr12_tempus_post_epiphaniam}
+\customsubfile{lr13_tempus_quadragesimae}
+\customsubfile{lr14_tempus_passionis}
+\tocspace
+\customsubfile{lrt20_psalterium_ordinarium}
+\tocspace
+\customsubfile{lr15_tempus_paschale}
+\customsubfile{lr16_tempus_post_pentecosten}
+\customsubfile{lr17_tempus_augusti_septembris}
+\customsubfile{lr18_tempus_octobris_novembris}
+
+\newpage
+\tocspace
+\addcontentsline{toc}{section}{Indices}
+\cprintindex{R}{Index Responsorium}
+\cprintindex{T}{Index Tonorum communorum}
+\thispagestyle{empty}
+\pagebreak
+\thispagestyle{empty}
+\cprintindex{F}{Index Festorum}
+\newpage
+\renewcommand\contentsname{Index Generalis}
+\tableofcontents
+\thispagestyle{empty}
+
+\end{document}
+

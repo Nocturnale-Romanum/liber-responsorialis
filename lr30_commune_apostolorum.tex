@@ -1,8 +1,13 @@
 % !TEX TS-program = lualatex
 % !TEX encoding = UTF-8
 
-\feast{CS}{Commune Sanctorum}{Commune Sanctorum}{Commune Sanctorum}{1}{}{}{}{}{}{}
-\addcontentsline{toc}{chapter}{Commune Sanctorum}
+\documentclass[liber-responsorialis_sanctorale.tex]{subfiles}
+
+\ifcsname preamble@file\endcsname
+  \setcounter{page}{\getpagerefnumber{M-lr30_commune_apostolorum}}
+\fi
+
+\begin{document}
 
 \null\newpage
 
@@ -65,3 +70,5 @@
 \pagebreak
 \gscore{APTPN3R2}{R}{8}{Candidi facti sunt}
 \pagebreak
+
+\end{document}

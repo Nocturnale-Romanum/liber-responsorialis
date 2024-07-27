@@ -1,0 +1,101 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8
+
+\documentclass[liber-responsorialis_temporale.tex]{subfiles}
+
+\ifcsname preamble@file\endcsname
+  \setcounter{page}{\getpagerefnumber{M-lrt01_prolegomena}}
+\fi
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+
+\null\vspace{5mm}
+{\Large\sc{}Nocturnale Romanum}
+
+\vspace{5mm}
+
+{\large\sc{}Tomus VIa}
+
+\vspace{3cm}
+
+{\Huge{}LIBER RESPONSORIALIS}
+
+\vspace{1cm}
+
+{\Large\sc{}pro nocturnis horis\\in omnibus diebus\\per totum anni circulum}
+
+\vspace{5mm}
+
+{\large\sc{}secundum ordinem Divini Officii\\a Pio pp X restituti\\cum variationibus a Joanne pp XXIII instauratis}
+
+\vspace{5mm}
+
+{\Large\sc{}DE TEMPORE}
+
+\vspace{3.5cm}
+
+{\large\sc{}instrumentum laboris}
+
+\vfill
+
+MMXXIV
+
+\end{center}
+\end{titlepage}
+
+\null
+
+\feast{OR}{Prolegomena}
+	{Prolegomena}{Prolegomena}{2}{}{}{}{}{}{}
+\thispagestyle{empty}
+\addcontentsline{toc}{section}{Prolegomena}
+
+\begin{english}
+	
+\intermediatetitle{TODO English foreword title}
+
+{\setlength{\parindent}{5mm}\small
+
+TODO English foreword
+
+This book is also, and most importantly at present, a \textbf{draft}. We, the editing team, are entirely too few to bring it up to proper standards by ourselves. 
+Please give your feedback on\\{\footnotesize\url{https://github.com/Nocturnale-Romanum/nocturnale-romanum/issues}}
+
+}
+
+\end{english}
+
+\pagebreak
+\null
+
+\intermediatetitle{TODO titre préface française}
+
+{\setlength{\parindent}{5mm}\small
+
+TODO préface française
+
+Ce livre est aussi, et surtout --- pour le moment --- un \textbf{brouillon}. L'équipe d'édition est beaucoup trop réduite pour en amener la qualité, par elle-même, à un niveau satisfaisant.
+Merci de bien vouloir signaler les corrections nécessaires sur\\{\footnotesize\url{https://github.com/Nocturnale-Romanum/nocturnale-romanum/issues}}
+
+}
+
+\pagebreak
+
+\null\vfill
+
+\intermediatetitle{Tabella neumatum}
+
+{\gresetnabc{1}{visible}
+\gresetclef{invisible}
+\gresetinitiallines{0}
+\gregorioscore{\subfix{nocturnale-romanum/gabc/neumata}}
+}
+
+\vfill
+
+\cleardoublepage
+
+\end{document}

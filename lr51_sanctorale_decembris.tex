@@ -1,16 +1,13 @@
 % !TEX TS-program = lualatex
 % !TEX encoding = UTF-8
 
-\documentclass[liber-responsorialis_hiemalis.tex]{subfiles}
+\documentclass[liber-responsorialis_sanctorale.tex]{subfiles}
 
 \ifcsname preamble@file\endcsname
   \setcounter{page}{\getpagerefnumber{M-lr51_sanctorale_decembris}}
 \fi
 
 \begin{document}
-
-\feast{PRSA}{Proprium Sanctorum}{Proprium Sanctorum}{Proprium Sanctorum}{1}{}{}{}{}{}{}
-\addcontentsline{toc}{chapter}{Proprium Sanctorum}
 
 \rubric{In omnibus Festis novem Lectionum Domini, beatæ Mariæ Virginis, Angelorum, sancti Joannis Baptistæ, sancti Joseph, Apostolorum, Evangelistarum, necnon in omnibus Duplicibus \Rnum{1} et \Rnum{2} classis, integrum Officium dicitur ut in Proprio vel Communi.}
 
@@ -19,35 +16,6 @@
 \rubric{Per Octavas autem communes, nisi propria suis locis assignentur, Responsoria \Rnum{1} Nocturni de Tempore; si Lectiones de Scriptura occurenti desint, Responsoria \Rnum{1} Nocturni ut in Festo, nisi aliter notatur; reliqua ut in Festo.}
 
 \rubric{In Festis autem et diebus Octavis simplicibus, Responsoria de Tempore, addito \Rnum{2} Responsorio \normaltext{Glória Patri}.}
-
-\feast{1100}{Festa Novembris}{Proprium Sanctorum}{Festa Novembris}{1}{}{}{}{}{}{}
-\addcontentsline{toc}{section}{Festa Novembris}
-
-\feast{1129}{S. Saturnini Martyris}
-	{Proprium Sanctorum}{Festa Novembris}{2}{29 Novembris (in Adventu)}
-	{Commemoratio}{Commemoratio}{Saturnini}
-	{}
-	{}
-\rubric{\respdetemp}
-
-\feast{1130}{S. Andreæ Apostoli}
-	{Proprium Sanctorum}{Festa Novembris}{2}{30 Novembris}
-	{Duplex II. classis}{II. classis}{Andreæ Apostoli}
-	{}
-	{}
-\nocturn{1}
-
-\index[R]{Dum deambularet... Andream}
-\gscore{1130N1R1}{R}{1}{Cum deambularet... Andream}
-\gscore{1130N1R2}{R}{2}{Mox ut vocem}
-\gscore{1130N1R3}{R}{3}{Doctor bonus}
-\nocturn{2}
-\gscore{1130N2R1}{R}{4}{Homo Dei ducebatur}
-\gscore{1130N2R2}{R}{5}{O Bona Crux}
-\gscore{1130N2R3}{R}{6}{Expandi manus}
-\nocturn{3}
-\gscore{1130N3R1}{R}{7}{Oravit sanctus Andreas}
-\gscore{1130N3R2}{R}{8}{Videns crucem Andreas}
 
 \feast{1200}{Festa Decembris}{Proprium Sanctorum}{Festa Decembris}{1}{}{}{}{}{}{}
 \addcontentsline{toc}{section}{Festa Decembris}
@@ -101,7 +69,7 @@
 \nocturn{2}
 \gscore{1208N2R1}{R}{4}{Ego ex ore Altissimi}
 \gscore{1208N2R2}{R}{5}{Nihil inquinatum}
-\gscore{1208N2R3}{R}{6}{Signum magnum!\vvrub Induit}
+\gscore{1208N2R3}{R}{6}{Signum magnum\idxnewline\vvrub Induit}
 \nocturn{3}
 \gscore{1208N3R1}{R}{7}{Hortus conclusus}
 \gscore{1208N3R2}{R}{8}{Magnificat}
@@ -146,5 +114,108 @@
 	{}
 	{}
 \rubric{\apexrubric}
-	
-\end{document}
+
+%%%%%%%%%% Comment out this section when those feasts are in the Temporale
+
+\feast{1226}{In Festo S. Stephani Protomartyris}
+	{Proprium de Tempore}{S. Stephani Protomartyris}{2}{26 Decembris}
+	{Duplex II. classis}{II. classis}{Stephani}
+	{}
+	{}
+\nocturn{1}
+\gscore{1226N1R1}{R}{1}{Stephanus autem}
+\gscore{1226N1R2}{R}{2}{Videbant omnes Stephanum}
+\pagebreak
+\gscore{1226N1R3}{R}{3}{Intuens in caelum}
+\nocturn{2}
+\gscore{1226N2R1}{R}{4}{Lapidabant Stephanum}
+\pagebreak
+\gscore{1226N2R2}{R}{5}{Impetum fecerunt}
+\pagebreak
+\gscore{1226N2R3}{R}{6}{Impii super justum}
+\vspace{\baselineskip}
+\nocturn{3}
+{
+	\grechangedim{baselineskip}{75pt plus 3pt minus 0pt}{scalable}
+	\gscore{1226N3R1}{R}{7}{Stephanus servus}
+	\sixlinesvspace
+	\fiveplustitlevspace
+	\fiveplustitlevspace
+	\gscore{1226N3R2}{R}{8}{Patefactae sunt}
+	\sixlinesvspace
+}
+\pagebreak
+
+\feast{1227}{In Festo S. Joannis\\Apostoli et Evangelistæ}
+	{Proprium de Tempore}{S. Joannis Apostoli et Evangelistæ}{2}{27 Decembris}
+	{Duplex II. classis}{II. classis}{Joannis Evangelistæ}
+	{}
+	{}
+\nocturn{1}
+\gscore{1227N1R1}{R}{1}{Valde honorandus}
+\gscore{1227N1R2}{R}{2}{Hic est discipulus}
+\gscore{1227N1R3}{R}{3}{Hic est beatissimus}
+\nocturn{2}
+\gscore{1227N2R1}{R}{4}{Qui vicerit faciam}
+\gscore{1227N2R2}{R}{5}{Diligebat autem eum}
+\pagebreak
+\gscore{1227N2R3}{R}{6}{In medio ecclesiae}
+\pagebreak
+\nocturn{3}
+\gscore{1227N3R1}{R}{7}{In illo die suscipiam}
+\fiveplustitlevspace
+\pagebreak
+\gscore{1227N3R2}{R}{8}{Iste est Joannes}
+\pagebreak
+
+\fiveplustitlevspace
+\feast{1228}{In Festo Ss. Innocentium Martyrum}
+	{Proprium de Tempore}{Ss. Innocentium Martyrum}{2}{28 Decembris}
+	{Duplex II. classis}{II. classis}{Innocentium}
+	{}
+	{}
+\fiveplustitlevspace
+\nocturn{1}
+\gscore{1228N1R1}{R}{1}{Centum quadraginta}
+\gscore{1228N1R2}{R}{2}{Sub altare Dei audivi}
+\sixlinesvspace
+\pagebreak
+\gscore{1228N1R3}{R}{3}{Adoraverunt}
+\pagebreak
+\nocturn{2}
+\gscore{1228N2R1}{R}{4}{Effuderunt sanguinem}
+\pagebreak
+\gscore{1228N2R2}{R}{5}{Isti sunt sancti qui passi}
+\sixlinesvspace
+\sixlinesvspace
+\pagebreak
+\gscore{1228N2R3}{R}{6}{Isti sunt sancti qui non}
+\nocturn{3}
+\gscore{1228N3R1}{R}{7}{Cantabant sancti}
+\pagebreak
+\rubric{Nisi Festum Sanctorum Innocentium venerit in Dominica, \vvrub \normaltext{Glória Patri} omittitur.}
+\gscore{1228N3R2}{R}{8}{Vidi sub altare}
+\sixlinesvspace
+\sixlinesvspace
+\sixlinesvspace
+\rubric{Si Festum Sanctorum Innocentium venerit in Dominica, loco \rrrub 9. \normaltext{Te Deum} cantatur.}
+\gscore{1228N3R3}{R}{9}{Isti qui amicti sunt}
+\pagebreak
+
+\feast{1229}{S. Thomæ Cantuariensis Episcopi et Martyris}
+	{Proprium de Tempore}{S. Thomæ Episcopi et Martyris}{2}{29 Decembris}
+	{Duplex}{Commemoratio}{Thomæ Cantuariensis}
+	{Responsoria \Rnum{1} Nocturni ut in Dominica infra Octavam Nativitatis.
+		Responsoria \Rnum{2} et \Rnum{3} Nocturnorum ut in Communi unius Martyris pag.\ \pageref{M-UMEXN2R1}. 
+	}
+	{Responsoria 1. et 2. de Dominica infra Octavam Nativitatis.}
+
+\feast{1231}{S. Silvestri Papæ et Confessoris}
+	{Proprium de Tempore}{S. Silvestri Papæ et Confessoris}{2}{31 Decembris}
+	{Duplex}{Commemoratio}{Silvestri Papæ}
+	{Responsoria \Rnum{1} Nocturni ut in Dominica infra Octavam Nativitatis.
+		Responsoria \Rnum{2} et \Rnum{3} Nocturnorum ut in Communi Confessoris Pontificis pag.\ \pageref{M-COPON2R1}. 
+	}
+	{Responsoria 1. et 2. de Dominica infra Octavam Nativitatis.}
+
+\end{document} 

@@ -1,6 +1,14 @@
 % !TEX TS-program = lualatex
 % !TEX encoding = UTF-8
 
+\documentclass[liber-responsorialis_sanctorale.tex]{subfiles}
+
+\ifcsname preamble@file\endcsname
+  \setcounter{page}{\getpagerefnumber{M-lr33_commune_mulierum}}
+\fi
+
+\begin{document}
+
 \feast{MU}{Commune Virginum aut non Virginum}
 	{Commune Sanctorum}{Commune Virginum aut non Virginum}{2}{}{}{}{}{}{}
 \addcontentsline{toc}{section}{Commune Virginum aut non Virginum}
@@ -10,7 +18,7 @@
 \gscore{MUXMN1R1}{R}{1}{Veni sponsa Christi}
 \rubric{Pro non Martyre:}
 \gscore{MUXNN1R1}{R}{1}{Veni electa mea}
-\gscore{MUXXN1R2}{R}{2}{Diffusa est!\vvrub Specie}
+\gscore{MUXXN1R2}{R}{2}{Diffusa est\idxnewline\vvrub Specie}
 \gscore{MUXXN1R3}{R}{3}{Specie tua}
 \nocturn{2}
 \gscore{MUXXN2R1}{R}{4}{Propter veritatem}
@@ -28,3 +36,5 @@
 \gscore{MUVXN3R2}{R}{8}{Media nocte clamor}
 \rubric{Pro non Virgine:}
 \gscore{MUNXN3R2}{R}{8}{Regnum mundi}
+
+\end{document}

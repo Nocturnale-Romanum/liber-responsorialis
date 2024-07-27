@@ -1,0 +1,2 @@
+delim_0 " \\leavevmode\\kern3pt\\leaders\\hbox{. }\\hfill"
+delim_1 " \\leavevmode\\kern3pt\\leaders\\hbox{. }\\hfill"

@@ -1,6 +1,14 @@
 % !TEX TS-program = lualatex
 % !TEX encoding = UTF-8
 
+\documentclass[liber-responsorialis_sanctorale.tex]{subfiles}
+
+\ifcsname preamble@file\endcsname
+  \setcounter{page}{\getpagerefnumber{M-lr31_commune_martyrum}}
+\fi
+
+\begin{document}
+
 \feast{UMEX}{Commune unius Martyris\\extra Tempus Paschale}
 	{Commune Sanctorum}{Commune unius Martyris extra T. P.}{2}{}{}{}{}{}{}
 \addcontentsline{toc}{section}{Commune Martyrum}
@@ -10,7 +18,7 @@
 \gscore{UMEXN1R2}{R}{2}{Justus germinabit}
 \gscore{UMEXN1R3}{R}{3}{Iste cognovit justitiam}
 \nocturn{2}
-\gscore{UMEXN2R1}{R}{4}{Honestum fecit!\vvrub Descenditque}
+\gscore{UMEXN2R1}{R}{4}{Honestum fecit\idxnewline\vvrub Descenditque}
 \gscore{UMEXN2R2}{R}{5}{Desiderium animae ejus}
 \gscore{UMEXN2R3}{R}{6}{Stola jucunditatis}
 \nocturn{3}
@@ -42,3 +50,5 @@
 \rubric{Responsoria e Communi Apostolorum et Evangelistorum Tempore Paschali, pag. \pageref{M-APTPN1R1}, præter sequentes:}
 \gscore{MRTPN2R2}{R}{5}{In servis suis}
 \gscore{MRTPN2R3}{R}{6}{Filiae Jerusalem}
+
+\end{document}

@@ -1,6 +1,14 @@
 % !TEX TS-program = lualatex
 % !TEX encoding = UTF-8
 
+\documentclass[liber-responsorialis_sanctorale.tex]{subfiles}
+
+\ifcsname preamble@file\endcsname
+  \setcounter{page}{\getpagerefnumber{M-lr32_commune_confessoris}}
+\fi
+
+\begin{document}
+
 \feast{COPO}{Commune Confessoris Pontificis}
 	{Commune Sanctorum}{Commune Confessoris Pontificis}{2}{}{}{}{}{}{}
 \addcontentsline{toc}{section}{Commune Confessoris}
@@ -22,10 +30,10 @@
 	{Commune Sanctorum}{Commune Confessoris non Pontificis, atque Abbatis}{2}{}{}{}{}{}{}
 \nocturn{1}
 \gscore{COPON1R1}{R}{1}{Euge serve bone}
-\gscore{CONPN1R2}{R}{2}{Justus germinabit!\emph{cum} Alleluia}
-\gscore{CONPN1R3}{R}{3}{Iste cognovit justitiam!\emph{cum} Alleluia}
+\gscore{CONPN1R2}{R}{2}{Justus germinabit\idxnewline\emph{cum} Alleluia}
+\gscore{CONPN1R3}{R}{3}{Iste cognovit justitiam\idxnewline\emph{cum} Alleluia}
 \nocturn{2}
-\gscore{CONPN2R1}{R}{4}{Honestum fecit!\vvrub Justum deduxit}
+\gscore{CONPN2R1}{R}{4}{Honestum fecit\idxnewline\vvrub Justum deduxit}
 \gscore{COPON3R1}{R}{5}{Amavit eum Dominus}
 \gscore{CONPN2R3}{R}{6}{Iste homo perfecit omnia}
 \nocturn{3}
@@ -33,3 +41,5 @@
 \gscore{COPON3R2}{R}{8}{Sint lumbi vestri}
 \rubric{Pro Doctore:}
 \gscore{1227N2R3}{R}{8}{In medio ecclesiae}
+
+\end{document}

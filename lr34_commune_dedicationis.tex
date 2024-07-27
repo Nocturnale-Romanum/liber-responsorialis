@@ -1,6 +1,14 @@
 % !TEX TS-program = lualatex
 % !TEX encoding = UTF-8
 
+\documentclass[liber-responsorialis_sanctorale.tex]{subfiles}
+
+\ifcsname preamble@file\endcsname
+  \setcounter{page}{\getpagerefnumber{M-lr34_commune_dedicationis}}
+\fi
+
+\begin{document}
+
 \feast{CDED}{Commune Dedicationis Ecclesiæ}
 	{Commune Sanctorum}{Commune Dedicationis Ecclesiæ}{2}{}{}{}{}{}{}
 \addcontentsline{toc}{section}{Commune Dedicationis}
@@ -21,3 +29,5 @@
 	}{
 	(Non habet Octavam.)
 	}
+
+\end{document}
