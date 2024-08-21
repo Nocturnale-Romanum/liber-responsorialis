@@ -53,13 +53,18 @@ MMXXIV
 \thispagestyle{empty}
 \addcontentsline{toc}{section}{Prolegomena}
 
+\begin{paracol}[1]{2}
+
 \begin{english}
 	
-\intermediatetitle{TODO English foreword title}
+\intermediatetitle{An adventure of silence}
 
 {\setlength{\parindent}{5mm}\small
 
-TODO English foreword
+The the night hour of Divine Office
+holds unforeseen treasures of prayer and life, as vast as they are unspeakable: one needs to simply sing it.
+
+After the publication of the \emph{Invitatoriale} and the \emph{Antiphonale} for major feasts, we hope that this book will enable for as many as possible the discovery of these treasures, which grow as they are shared.
 
 This book is also, and most importantly at present, a \textbf{draft}. We, the editing team, are entirely too few to bring it up to proper standards by ourselves. 
 Please give your feedback on\\{\footnotesize\url{https://github.com/Nocturnale-Romanum/nocturnale-romanum/issues}}
@@ -68,23 +73,179 @@ Please give your feedback on\\{\footnotesize\url{https://github.com/Nocturnale-R
 
 \end{english}
 
-\pagebreak
-\null
+\switchcolumn
 
-\intermediatetitle{TODO titre préface française}
+\intermediatetitle{Une aventure de silence}
 
 {\setlength{\parindent}{5mm}\small
 
-TODO préface française
+L'heure nocturne de l'Office divin recèle des trésors insoupçonnés de prière et de vie, aussi grands qu'ils sont peu communicables: il faut simplement la chanter.
+
+Après la publication de l'invitatorial et de l'antiphonaire festif, nous espérons que cet ouvrage permettra au plus grand nombre de découvrir ces trésors, qui croissent d'autant qu'ils sont partagés.
 
 Ce livre est aussi, et surtout --- pour le moment --- un \textbf{brouillon}. L'équipe d'édition est beaucoup trop réduite pour en amener la qualité, par elle-même, à un niveau satisfaisant.
 Merci de bien vouloir signaler les corrections nécessaires sur\\{\footnotesize\url{https://github.com/Nocturnale-Romanum/nocturnale-romanum/issues}}
 
 }
 
+\switchcolumn*
+
+\begin{english}
+
+\intermediatetitle{On the rhythm of Gregorian Chant\\as considered in this edition}
+
+{\setlength{\parindent}{5mm}\small
+
+There are a variety of theories regarding the rhythm of Gregorian Chant.
+The editors of this book believe that cantors upholding any of these theories, and interested in the singing of Matins,
+will find this book useful to them. This book is not that of a particular school with regards to rhythm.
+
+However, the editors wish to briefly expose the theory that has informed a few details of this book.
+
+Notes have a base length, henceforth the \emph{syllabic value}. It is the value of a syllable sung on a single note.
+
+When the neume for a syllable sung on a single note receives an \emph{episema}, or a \emph{tenete}, 
+it takes on the \emph{long value}, that is longer than the syllabic value. 
+In this case, the square note receives an episema as well.
+
+Notes within a melisma (that is, a syllable sung on more than one note) receive by default the \emph{short value}, 
+a value that is shorter than the \emph{syllabic value}. 
+Very frequently, their neumes receive an \emph{episema}, or a modification of shape, or a neumatic break, 
+in which case the notes receive the \emph{syllabic value}.
+In this case, the square notes receive an episema as well, except notes before a \emph{quilisma}: 
+it is common knowledge that those are to be lengthened even if they are not episemated.
+
+{\gresetnabc{1}{visible}
+\gresetclef{invisible}
+\gresetinitiallines{0}
+\gresetlyriccentering{firstletter}
+\begin{center}
+\begin{minipage}[c]{0.7\textwidth}
+\gregorioscore{\subfix{nocturnale-romanum/gabc/rhythmica_en}}
+\end{minipage}
+\end{center}
+}
+
+~
+
+In a few cases, several indications of lengthening are given by the neumes simultaneously,
+in which case the notes receive the \emph{long value}.
+
+In a few cases, several indications of brevity are given by the neumes simultaneously, in which case the notes can
+receive a value even shorter than the \emph{short value}.
+
+The proportion between the \emph{short value} and the \emph{syllabic value}, 
+and between the \emph{syllabic value} and the \emph{long value}, should be consistent, but is at the cantor's discretion. 
+It should also take into account the nature of the note: an episemated \emph{stropha} receives a 
+syllabic value somewhat shorter than that of an episemated \emph{virga}, 
+the \emph{stropha} itself being slightly shorter than the \emph{virga}.
+
+Finally, the end of a musical of textual sentence naturally brings about a certain lengthening of the notes. 
+This is customarily indicated by the \emph{punctum mora} or \emph{mora} dot.
+
+}
+
+\end{english}
+
+\switchcolumn
+
+\intermediatetitle{Le rythme du chant grégorien\\tel qu'il a servi à préparer cette édition}
+
+{\setlength{\parindent}{5mm}\small
+
+{\gresetnabc{1}{visible}
+\gresetclef{invisible}
+\gresetinitiallines{0}
+\gresetlyriccentering{firstletter}
+\begin{center}
+\begin{minipage}[c]{0.8\textwidth}
+\gregorioscore{\subfix{nocturnale-romanum/gabc/rhythmica_fr}}
+\end{minipage}
+\end{center}
+}
+
+~
+
+
+
+}
+
+\switchcolumn*
+
+\begin{english}
+
+\intermediatetitle{On clef changes and scale changes}
+
+{\setlength{\parindent}{5mm}\small
+
+Sometimes the editors of this book have needed to change the clef for purely typographical reasons, 
+because the melody extended too much above or below the staff. 
+In such a case, the note indicated by the \emph{custos} before the clef change, and the first note after, 
+have the same height and the same name (solmization).
+
+{\gresetinitiallines{0}
+\gabcsnippet{
+
+(c4) Ordinary clef change(fh/gh/ggof.//f+//;c3//d//f//h) (::///////////)
+
+(c4) Clef change with scale change(fh/gh/ggof.//f+//;c3//e//g//i) (::)
+
+}
+}
+
+~
+
+In some rare cases, this book features changes of scale, where, from one point forward, the piece uses a different
+scale than at its beginning, that is, a different set of notes.
+In such a case, the note indicated by the \emph{custos} before the clef change, and the first note after, 
+are sung at the same height, but have different names, one belonging to the scale before the change, 
+and one to the scale after the change.
+
+Scale changes can be difficult to sing and, while the editors of this book belive that they reflect
+the musical truth of the responsory in question, the cantor's discretion is advised on ignoring them or performing them.
+
+}
+
+\end{english}
+
+\switchcolumn
+
+\intermediatetitle{Changements de clef et changements d'échelle}
+
+{\setlength{\parindent}{5mm}\small
+
+Les éditeurs de cet ouvrage ont parfois introduit un changement de clef pour des raisons purement typographiques,
+pour éviter une mélodie trop au-dessus ou en-dessous de la portée.
+Dans un tel cas, la note indiquée par le guidon avant le changement de clef, et la première note qui le suit,
+ont la même hauteur et le même nom.
+
+{\gresetinitiallines{0}
+\gabcsnippet{
+
+(c4) Changement de clef(fh/gh/ggof.//f+//;c3//d//f//h) (::///////////)
+
+(c4) Changement d'échelle(fh/gh/ggof.//f+//;c3//e//g//i) (::)
+
+}
+}
+
+~
+
+Dans certains cas rares, cet ouvrage contient des changements d'échelle, où la pièce continue
+en employant une échelle différente de celle avec laquelle elle a commencé --- c'est à dire un autre ensemble de notes.
+Dans un cas pareil, la note indiquée par le guidon avant le changement de clef, et la première note qui le suit,
+ont la même hauteur, mais pas le même nom, selon l'échelle où on considère cette note.
+
+Les changements d'échelle sont d'une exécution délicate. Les éditeurs de cet ouvrage croient que ces 
+changements reflètent la vérité musicale de la pièce, mais leur exécution ou non est laissée à la discrétion du chantre.
+
+}
+
+\end{paracol}
+
 \pagebreak
 
-\null\vfill
+\vfill*
 
 \intermediatetitle{Tabella neumatum}
 
