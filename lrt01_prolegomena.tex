@@ -53,7 +53,7 @@ MMXXIV
 \thispagestyle{empty}
 \addcontentsline{toc}{section}{Prolegomena}
 
-\begin{paracol}[1]{2}
+\begin{paracol}[1]*{2}
 
 \begin{english}
 	
@@ -118,7 +118,6 @@ it is common knowledge that those are to be lengthened even if they are not epis
 {\gresetnabc{1}{visible}
 \gresetclef{invisible}
 \gresetinitiallines{0}
-\gresetlyriccentering{firstletter}
 \begin{center}
 \begin{minipage}[c]{0.7\textwidth}
 \gregorioscore{\subfix{nocturnale-romanum/gabc/rhythmica_en}}
@@ -156,7 +155,6 @@ This is customarily indicated by the \emph{punctum mora} or \emph{mora} dot.
 {\gresetnabc{1}{visible}
 \gresetclef{invisible}
 \gresetinitiallines{0}
-\gresetlyriccentering{firstletter}
 \begin{center}
 \begin{minipage}[c]{0.8\textwidth}
 \gregorioscore{\subfix{nocturnale-romanum/gabc/rhythmica_fr}}
@@ -241,11 +239,51 @@ changements reflètent la vérité musicale de la pièce, mais leur exécution o
 
 }
 
+\switchcolumn*
+
+\begin{english}
+
+\intermediatetitle{On the notation of accidentals}
+
+{\setlength{\parindent}{5mm}\small
+
+Flat, sharp and natural signs are used in this book. 
+
+Flats and sharps apply until the end of the word, or until the next bar line inside a long melisma. 
+In particular, their effect may carry over the end of the staff into the next, if no change of word or bar intervenes.
+
+Some pieces have a flat as a key signature. In this case, what has been say above of the flat and sharp signs is true of the natural sign.
+
+However, in many cases, the end of the effect of an accidental has been explicited by the addition of the sign that cancels it.
+}
+
+\end{english}
+
+\switchcolumn
+
+\intermediatetitle{Notation des altérations}
+
+{\setlength{\parindent}{5mm}\small
+
+Les signes dièse, bémol et bécarre sont employés dans cet ouvrage.
+
+Les signes dièse et bémol sont applicables jusqu'à la fin du mot, ou jusqu'à la prochaine barre, s'il s'agit d'un long mélisme.
+En particulier, leur effet peut se prolonger d'une portée dans la suivante, au sein du même mot et si aucune barre n'est présente.
+
+Certaines pièces ont un bémol à la clef. Dans ce cas, ce qui a été dit ci-dessus du dièse et du bémol s'applique au signe bécarre.
+
+Cependant, dans de très nombreux cas, la fin de l'effet d'une altération a été rendue explicite par l'ajout de l'altération contraire.
+}
+
 \end{paracol}
 
 \pagebreak
 
-\vfill*
+%% Here begins a left page
+
+\null
+
+\vfill
 
 \intermediatetitle{Tabella neumatum}
 
@@ -257,6 +295,64 @@ changements reflètent la vérité musicale de la pièce, mais leur exécution o
 
 \vfill
 
-\cleardoublepage
+\pagebreak
+
+%% Here begins a right page
+
+\vfill
+
+\intermediatetitle{Editores}
+
+\begin{center}
+Matthias Bry
+
+Dominique Crochu
+\end{center}
+
+\intermediatetitles{Socii}
+
+\begin{center}
+John Anderson
+
+Dominique Gatté
+
+Jacques-Marie Guilmard \textsc{osb}
+
+Rob Leduc
+\end{center}
+
+\intermediatetitle{Amici}
+
+\begin{center}
+Guillaume Antoine
+
+Charlotte Bry
+
+Damien \textsc{osb}
+
+Alberto Diaz-Blanco
+
+Giedrius Gapsys
+
+Joshua Guenther
+
+Anne Guyard
+
+Raphaël \textsc{crmd}
+
+Matthew Roth
+
+Henri Vallançon
+\end{center}
+
+\intermediatetitle{In Memoriam}
+
+\begin{center}
+Holger Peter Sandhofe
+
+Louis-Marie Vigne
+\end{center}
+
+\vfill
 
 \end{document}
