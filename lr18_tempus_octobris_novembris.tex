@@ -8,31 +8,38 @@
 \fi
 
 \begin{document}
-
-\null\newpage
-
+%% This subfile begins on a LEFT, EVEN page
+\vspace*{-0.5\baselineskip}
+\thispagestyle{empty}
 \feast{10H1F1}{De Libris Machabæorum}
 	{Proprium de Tempore}{Dominicæ mensis Octobris}{2}{Dominicæ mensis Octobris}
 	{Semiduplicia}{II. classis}{}
 	{}
 	{}
 \addcontentsline{toc}{section}{De Libris Machabæorum}
+
 \vspace{-\baselineskip}
 \nocturn{1}
-\vspace{-\baselineskip}
+\vspace*{-0.5\baselineskip}
 \gscore{10H1N1R1}{R}{1}{Adaperiat}
 \gscore{10H1N1R2}{R}{2}{Exaudiat Dominus}
 \gscore{10H1N1R3}{R}{3}{Congregati sunt inimici}
+\pagebreak
 \nocturn{2}
 \gscore{10H1N2R1}{R}{4}{Impetum inimicorum}
+\pagebreak
 \gscore{10H1N2R2}{R}{5}{Congregatae sunt gentes}
+\pagebreak
 \gscore{10H1N2R3}{R}{6}{Tua est potentia}
 \sixlinesvspace
 \pagebreak
 
 \nocturn{3}
 \gscore{10H1N3R1}{R}{7}{Refulsit sol in clypeos}
-\gscore{E2N3R2}{R}{8}{Duo Seraphim}
+\vspace{2\baselineskip}
+\respref{8}{E2N3R2}{}
+\sixlinesvspace
+\pagebreak
 
 \feast{10H1F2}{Feria II}
 	{Proprium de Tempore}{Mensis Octobris}{3}{}
@@ -42,7 +49,9 @@
 \vspace{-2.5\baselineskip}
 \gscore{10H1F2R1}{R}{1}{Dixit Judas Simoni}
 \gscore{10H1F2R2}{R}{2}{Ornaverunt}
+\pagebreak
 \gscore{10H1F2R3}{R}{3}{In hymnis}
+\pagebreak
 
 \feast{10H1F3}{Feria III}
 	{Proprium de Tempore}{Mensis Octobris}{3}{}
@@ -50,7 +59,9 @@
 	{}
 	{}
 \gscore{10H1F3R1}{R}{1}{Hic est fratrum amator}
+\pagebreak
 \gscore{10H1F3R2}{R}{2}{Tu Domine universorum}
+\pagebreak
 \gscore{10H1F3R3}{R}{3}{Aperi caelos tuos Domine}
 
 \feast{10H1F4}{Feria IV}
@@ -84,7 +95,8 @@
 \rubric{Tria Responsoria ut in Feria \Rnum{2}, pag.\ \pageref{M-10H1F2R1}.}
 
 \newpage
-
+\vspace*{-\baselineskip}
+\thispagestyle{empty}
 \feast{11H1F1}{De Libris Prophetarum}
 	{Proprium de Tempore}{Dominicæ mensis Novembris}{2}{Dominicæ mensis Novembris}
 	{Semiduplicia}{II. classis}{}
@@ -93,22 +105,29 @@
 \addcontentsline{toc}{section}{De Libris Prophetarum}
 \vspace{-\baselineskip}
 \nocturn{1}
-\vspace{-\baselineskip}
-\vfill
+\vspace*{-0.5\baselineskip}
 \gscore{H1N1R1}{R}{1}{Vidi Dominum\idxnewline{}sedentem}
-\gscore{11H1N1R2}{R}{2}{Aspice Domine de sede}
-\sixlinesvspace
 \pagebreak
+{\grechangedim{spaceabovelines}{10mm}{scalable}
+\gscore{11H1N1R2}{R}{2}{Aspice Domine de sede}
+}
+\vspace{\baselineskip}
+%\sixlinesvspace
+%\pagebreak
 \gscore{11H1N1R3}{R}{3}{Aspice Domine quia facta}
+\pagebreak
 \nocturn{2}
 \gscore{11H1N2R1}{R}{4}{Super muros tuos}
+\fiveplustitlevspace
+\pagebreak
 \gscore{11H1N2R2}{R}{5}{Muro tuo inexpugnabili}
 \gscore{11H1N2R3}{R}{6}{Sustinuimus pacem}
+\pagebreak
 \nocturn{3}
 \gscore{11H1N3R1}{R}{7}{Laudabilis populus}
-\gscore{E2N3R2}{R}{8}{Duo Seraphim}
-
-\sixlinesvspace
+\vfill
+\respref{8}{E2N3R2}{}
+\pagebreak
 
 \feast{11H1F2}{Feria II}
 	{Proprium de Tempore}{Mensis Novembris}{3}{}
@@ -116,8 +135,10 @@
 	{}
 	{}
 \gscore{11H1F2R1}{R}{1}{Redemit Dominus}
+\pagebreak
 \gscore{11H1F2R2}{R}{2}{Angustiae mihi}
 \gscore{11H1F2R3}{R}{3}{Misit Dominus}
+\pagebreak
 
 \feast{11H1F3}{Feria III}
 	{Proprium de Tempore}{Mensis Novembris}{3}{}
@@ -125,12 +146,16 @@
 	{}
 	{}
 \gscore{11H1F3R1}{R}{1}{A facie furoris tui}
-\gscore{11H1F3R2}{R}{2}{Civitatem istam}
-\pagebreak
 \sixlinesvspace
+\pagebreak
+\gscore{11H1F3R2}{R}{2}{Civitatem istam}
+\sixlinesvspace
+\pagebreak
 \gscore{11H1F3R3}{R}{3}{Genti peccatrici}
 \sixlinesvspace
+\fiveplustitlevspace
 \pagebreak
+
 
 \feast{11H1F4}{Feria IV}
 	{Proprium de Tempore}{Mensis Novembris}{3}{}
@@ -139,6 +164,7 @@
 	{}
 \gscore{11H1F4R1}{R}{1}{Indicabo te}
 \pagebreak
+\vspace*{2\baselineskip}
 \respref{2}{11H1F2R2}{}
 \respref{3}{11H1F2R3}{}
 

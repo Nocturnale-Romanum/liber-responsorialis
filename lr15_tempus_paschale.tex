@@ -8,8 +8,7 @@
 \fi
 
 \begin{document}
-
-\null\newpage
+%% This subfile begins on a LEFT, EVEN page
 
 \feast{P0F1}{Dominica Resurrectionis\\Domini nostri Jesu Christi}
 	{Proprium de Tempore}{Dominica Resurrectionis}{1}{}
@@ -86,6 +85,7 @@
 \gscore{P0F2R1}{R}{4}{Maria Magdalene\idxnewline\emph{cum} Alleluia}
 \vspace{\baselineskip}
 \resprefsinegp{5}{P0F2R2}
+\vspace*{\baselineskip}
 \pagebreak
 {
 	\grechangedim{spaceabovelines}{-3mm}{scalable}
@@ -171,11 +171,11 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 \gscore{P0F4R1}{R}{3}{Ecce vicit leo}
 
 \nocturn{2}
-\gscore{APTPN3R1}{R}{4}{Ego sum vitis vera} % TODO make this the reference occurrence instead of the APTP one
+\gscore{APTPN3R1}{R}{4}{Ego sum vitis vera}
 \resprefsinegp{5}{P0F6R1}
 \gscore{P0F6R2}{R}{6}{Expurgate vetus fermentum}
 
-\nocturn{3}
+\intermediatetitle{In \Rnum{3} Nocturno {\rubric{ut infra.}}}
 \gscore{P0F7R1}{R}{7}{Christus resurgens}
 \gscore{P0F2R2}{R}{8}{Surrexit pastor bonus}
 
@@ -282,45 +282,33 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 \gscore{P4N1R2}{R}{2}{Viderunt te aquae Deus}
 
 \pagebreak
-\null\vfill
-{
-	\grechangedim{spaceabovelines}{10mm}{scalable}
+
 \gscore{P4N1R3}{R}{3}{Narrabo nomen tuum}
-}
-\vfill\newpage
+\sixlinesvspace
+\pagebreak
 
-\null\vfill
 \nocturn{2}
-{
-	\grechangedim{spaceabovelines}{10mm}{scalable}
-\gscore{P4N2R1}{R}{4}{In ecclesiis}
-}
-\vfill\newpage
 
-\null\vfill
-{
-%	\grechangedim{spaceabovelines}{10mm}{scalable}
+\gscore{P4N2R1}{R}{4}{In ecclesiis}
+\fiveplustitlevspace
+\pagebreak
+
+\sixlinesvspace
 \gscore{P4N2R2}{R}{5}{In toto corde meo}
-}
-\vfill\newpage
+\fiveplustitlevspace
+\pagebreak
 
 \gscore{P4N2R3}{R}{6}{Hymnum cantate nobis}
 \pagebreak
 
-\null\vfill
-{
-%	\grechangedim{spaceabovelines}{10mm}{scalable}
 \nocturn{3}
 \gscore{P4N3R1}{R}{7}{Deus canticum novum}
-}
-\vfill\newpage
+\fiveplustitlevspace
+\pagebreak
 
-\null\vfill
-{
-%	\grechangedim{spaceabovelines}{10mm}{scalable}
 \gscore{P4N3R2}{R}{8}{Bonum est confiteri}
-}
-\vfill\newpage
+\sixlinesvspace
+\pagebreak
 
 \feast{P4F2}{Feria II}
 	{Proprium de Tempore}{Hebdomada IV post Pascha}{3}{}
@@ -421,22 +409,36 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 	{}
 \nocturn{1}
 \gscore{P5F5N1R1}{R}{1}{Post passionem suam}
-\vspace{1cm}
 \gscore{P5F5N1R2}{R}{2}{Omnis pulchritudo}
+\sixlinesvspace
 \gscore{P5F5N1R3}{R}{3}{Exaltare Domine}
+\pagebreak
 \nocturn{2}
+\vspace{-0.5\baselineskip}
+{
+\grechangedim{spaceabovelines}{-1mm}{scalable}
 \gscore{P5F5N2R1}{R}{4}{Tempus est... Dominus}
+}
+\pagebreak
 \gscore{P5F5N2R2}{R}{5}{Non conturbetur cor}
+\pagebreak
 \gscore{P5F5N2R3}{R}{6}{Ascendens in altum}
+\sixlinesvspace
+\pagebreak
+\vspace*{2\baselineskip}
 \nocturn{3}
 \gscore{P5F5N3R1}{R}{7}{Ego rogabo Patrem}
+\pagebreak
 \gscore{P5F5N3R2}{R}{8}{Ponit nubem}
-
+\sixlinesvspace
+\pagebreak
+\sixlinesvspace
 \feast{P6F1}{Infra et post Octavam Ascensionis}
 	{Proprium de Tempore}{Infra et post Octavam Ascensionis}{2}{}
 	{}{}{}
 	{}
 	{}
+	
 \twocolrubric{
 	Infra Octavam et in die Octava, Responsoria ut in Festo. In Dominica infra Octavam, et Feria \Rnum{6} post Octavam, et Sabbato in Vigilia Pentecostes, \rrrub 8.\ ut infra.
 }{
@@ -445,7 +447,10 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 	In Dominica et in Festis, \respref{2}{P5F5N1R3}{}
 	In Vigilia Pentecostes, \rrrub 1. \scorename{P5F5N3R1}, pag.\ \pageref{M-P5F5N3R1} et \rrrub 2.\ ut infra.
 }
+\sixlinesvspace
+\sixlinesvspace
 \gscore{P6N3R2}{R}{8}{Si enim non abiero}
+\pagebreak
 
 \feast{P7F1}{Dominica Pentecostes}
 	{Proprium de Tempore}{Dominica Pentecostes}{1}{}
@@ -462,6 +467,8 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 	{}
 \resprefsinegp{2}{P7F2R1}
 \gscore{P7F2R2}{R}{2}{Spiritus Sanctus procedens}
+\sixlinesvspace
+\pagebreak
 
 \feast{P7F3}{Feria III infra Octavam Pentecostes}
 	{Proprium de Tempore}{Infra Octavam Pentecostes}{2}{}
@@ -469,7 +476,9 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 	{}
 	{}
 \gscore{P7F3R1}{R}{1}{Apparuerunt apostolis}
+\pagebreak
 \gscore{P7F3R2}{R}{2}{Loquebantur}
+\pagebreak
 
 \feast{P7F4}{Feria IV Quatuor Temporum Pentecostes}
 	{Proprium de Tempore}{Infra Octavam Pentecostes}{2}{}
@@ -477,6 +486,7 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 	{}
 	{}
 \gscore{P7F4R1}{R}{1}{Disciplinam et sapientiam}
+\pagebreak
 \gscore{P7F4R2}{R}{2}{Ite in orbem universum}
 
 \feast{P7F5}{Feria V infra Octavam Pentecostes}
@@ -486,14 +496,18 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 	{}
 \gscore{P7F5R1}{R}{1}{Advenit ignis divinus}
 \gscore{P7F5R2}{R}{2}{Spiritus Sanctus replevit\idxnewline{}totam domum}
+\pagebreak
 
+\sixlinesvspace
 \feast{P7F6}{Feria VI Quatuor Temporum Pentecostes}
 	{Proprium de Tempore}{Infra Octavam Pentecostes}{2}{}
 	{Semiduplex}{Dies octavæ I. classis}{}
 	{}
 	{}
 \gscore{P7F6R1}{R}{1}{Non vos me elegistis}
+\pagebreak
 \gscore{P7F6R2}{R}{2}{Spiritus Domini replevit\idxnewline{}orbem terrarum}
+\pagebreak
 
 \feast{P7F7}{Sabbato Quatuor Temporum Pentecostes}
 	{Proprium de Tempore}{Infra Octavam Pentecostes}{2}{}
@@ -502,5 +516,7 @@ quod enim facitur in omnibus diebus usque ad Vigiliam Ascensionis.}
 	{}
 \resprefsinegp{1}{P7R2}
 \gscore{P7F2R1}{R}{1}{Jam non dicam}
+
+%% This subfile ends on a LEFT, EVEN page
 
 \end{document}
