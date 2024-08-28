@@ -251,7 +251,6 @@ end
 
 %%%%%%%%%%%%%%% Main font
 \setmainfont[Ligatures=TeX, Scale=\customscale]{Charis SIL}
-%\setmainfont[Ligatures=TeX, Scale=\customscale]{TeXGyreBonum-Regular}
 \setstretch{\fpevalc{1.05 * \customscale}}
 
 %%%%%%%%%%%%%%% Score initials
@@ -293,7 +292,7 @@ end
 \gresetspecial{cross}{\textcolor{gregoriocolor}{\fontspec[Scale=\customscale]{FreeSerif}\symbol{"2720}}}
 \gresetspecial{labiacross}{\textcolor{gregoriocolor}{+}}
 %% Same special characters, for use in rubrics (no space, and no red command since it will be reddified with the rest)
-\newcommand{\vvrub}{{\fontspec[Scale=\customscale]{Charis SIL}℣.~}}
+\newcommand{\vvrub}{{℣.~}} %%% BEWARE if we change the main font away from Charis SIL this command WILL be broken
 \newcommand{\rrrub}{{\fontspec[Scale=\customscale]{Charis SIL}℟.~}}
 \newcommand{\aarub}{{\fontspec[Scale=\customscale]{Charis SIL}\Abar.~}}
 
