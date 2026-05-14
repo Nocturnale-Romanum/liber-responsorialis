@@ -4,15 +4,15 @@ Mode 1 en c4
 
 Mode 2 en f3
 
-<sp>V/</sp> Gló(e_f!gwh/hi|qlhgppt2pehj)ri(h|ta)a(h|ta) Pa(hg|cllsc3)tri,(hi|pe) et(gh|pe) Fí(f|ta)li(f!gwhg__|ql!cl-ppt1)o,(gf..|cl-) (;) et(f|ta) Spi(f|ta)rí(f!gwh_GFE__|ql-ppt1su1sut2)tu(f|vi)i(hg/hih|cllsc2tohg) Sanc(hv_GFg>|ci-vi>hg)to.(ffoe.|pr) (::)
+<sp>V/</sp> Gló(e_f!gwh/hi|`qlhgppt2/pehj)ri(h|ta)a(h|ta) Pa(hg|cllsc3)tri,(hi|pe) et(gh|pe) Fí(f|ta)li(f!gwhg__|ql!cl-ppt1)o,(gf..|cl-) (;) et(f|ta) Spi(f|ta)rí(f!gwh_GFE__|ql-ppt1su1sut2)tu(f|vi)i(hg/hih|cllsc2/tohh) Sanc(hv_GFg>|ci-vi>hg)to.(ffoe.|pr) (::) 
 
 Mode 3 en c4
 
-<sp>V/</sp> Gló(ikjjs|tohhsthj)ri(h!iwji__|qlhh!cl-hhppt1)a(hhog|prhh) Pa(hg|cllsc3)tri,(h|vi) et(j|vihh) Fí(i|tahh)li(ikjjs|tohhsthj)o,(ji..|cl-hg) (;) et(i|tahh) Spi(i|tahh)rí(ikjjvI_____H/iwji__|////toShkvi-hksut2qihk!cl-hk)tu(hg|clhhlsc3)i(g_h!iwj|qlhhppt2) Sanc(jiioh/iv_HGh|////clhh!pihhci-hhvihi)to.(hg..|cl-) (::)
+<sp>V/</sp> Gló(ikjjs|tohhsthj)ri(h!iwji__|qlhh!cl-hhppt1)a(hhog|prhh) Pa(ig|cllsc3)tri,(h|vi) et(j|vihh) Fí(i|tahh)li(ikjjs|tohhsthj)o,(ji..|cl-hg) (;) et(i|tahh) Spi(i|tahh)rí(ikjjvI_____H/iwji__|////toShkvi-hksut2qihk!cl-hk)tu(hg|clhhlsc3)i(g_h!iwj|qlhhppt2) Sanc(jiioh/iv_HGh|////clhh!pihhci-hhvihi)to.(hg..|cl-) (::)
 
 Mode 3 en c3
 
-<sp>V/</sp> Gló(gihhs|//tosthh)ri(f!gwhg__|ql!cl-ppt1)a(ffoe|pr) Pa(fe|cllsc3)tri,(f|vi) et(h|vihg) Fí(g|ta)li(gihhs|//tosthh)o,(hg..|cl-) (;) et(g|ta) Spi(g|ta)rí(gihhvG_____F/gwhg__|toSvi-hhsut2qihg!cl-hg)tu(fe|cllsc3)i(e_f!gwh|``qlhhppt2) Sanc(hggof/gv_FEf|cl!pici-vi)to.(fe..|cl-) (::)
+<sp>V/</sp> Gló(gihhs|//tosthh)ri(f!gwhg__|ql!cl-ppt1)a(ffoe|pr) Pa(ge|cllsc3)tri,(f|vi) et(h|vihg) Fí(g|ta)li(gihhs|//tosthh)o,(hg..|cl-) (;) et(g|ta) Spi(g|ta)rí(gihhvG_____F/gwhg__|toSvi-hhsut2qihg!cl-hg)tu(fe|cllsc3)i(e_f!gwh|``qlhhppt2) Sanc(hggof/gv_FEf|cl!pici-vi)to.(fe..|cl-) (::)
 
 Mode 4 en c4
 
@@ -51,7 +51,7 @@ Mode 7 en c2
 
 Mode 7 en c3
 
-<sp>V/</sp> Gló(i!jwk_JI|ql-hjppt1su2)ri(hg|cllsc3)a(h_i/hhog|peS``pr) Pa(ig|cllsc3)tri,(hi|pe) et(hi|pe) Fí(i|ta)li(i!jwkj__|qlhh!cl-hhppt1)o,(ji..|cl-) (;) et(i|ta) Spi(i|ta)rí(ijij_IH|////tr-1hhsu2)tu(ih|cllsc3)i(h!iwji/jkj|ql!clppt1tohm) Sanc(i_h!iwjij|////cl-`qi!po)to.(iv_HGhg..|//ci-hhcl-hh) (::)
+<sp>V/</sp> Gló(i!jwk_JI|ql-hjppt1su2)ri(hg|cllsc3)a(h_i/hhog|peS``pr) Pa(ig|cllsc3)tri,(hi|pe) et(hi|pe) Fí(i|ta)li(i!jwkj__|qlhi!cl-hippt1)o,(ji..|cl-hh) (;) et(i|ta) Spi(i|ta)rí(ijij_IH|////tr-1hhsu2)tu(ih|cllsc3)i(h!iwji/jkj|ql!clppt1tohm) Sanc(i_h!iwjij|////cl-`qi!po)to.(iv_HGhg..|//ci-hhcl-hh) (::)
 
 Mode 8 en c4
 
@@ -67,7 +67,7 @@ Alleluias
 2 (f3) Al(f_g>|pe>1he)le(e_//hvGF|ta-he/vihesu1sut1lsc3)lú(h_0//igh>|vi-hepo>he){ia}.(f.|ta) (::)
 3 (c4) Al(g_h>|pe>1he)le(gv_|vi-he|dfde_2|tr-3he|gv_|vi-he|dfde_2|tr-3he|gv_|vi-he|//hf/ghg|clhelsc2/to)lú(egffs|tohesthg){ia}.(fe..|cl-he) (::)
 4 (c4) Al(fh~|pe~he)le(hvGF___EC|vi-hesut2su2|d_0//fvED|vi-hd/cihg|fhg___|toShe|hffoe|clhe!pihe)lú(egffs|tohesthg){ia}.(fe..|cl-he) (::)
-5 (c3) Al(d_f>|pe>1he)le(gxe_0//hv_h_f!gwhG__E/fwg_FE|/////vi-heppu1cl-heql-hesut2qi-hesu2)lú(de!fv_EDe|//ci-hepp2vihe){ia}.(ed..|cl-he) (::)
-6 (c4) Al(fg~|pe~)le(ixg_0//ivHG|//////ta-he/cihelsc2)lú(hg/gofgv|clhe!pihevihe){ia}.(gf..|cl-he) (::)
+5 (c3) Al(d_f>|pe>1he)le(gxe_0/hv_h_f!gwhG__E/fwg_FE|/////vi-heppu1cl-heql-hesut2qi-hesu2)lú(de!fv_EDe|//ci-hepp2vihe){ia}.(ed..|cl-he) (::)
+6 (c4) Al(fg~|pe~)le(ixg_0/ivHG|//////ta-he/cihelsc2)lú(hg/gofgv|clhe!pihevihe){ia}.(gf..|cl-he) (::)
 7 (c3) Al(d_f!gwh/i>|```qlppt2vi>hh)le(hv_GFg|ci-vi|//egf/ge|/to/cl)lú(efe___|toS){ia}.(e.|ta) (::) 
-8 (c4) Al(g|vi)le(g_0//hfg|vi-hepohh)lú(g!hwihi>|qlhe!po>heppt1){ia}.(hg..|cl-) (::)
+8 (c4) Al(g|vi)le(g_0/hfg|vi-hepohh)lú(g!hwihi>|qlhe!po>heppt1){ia}.(hg..|cl-) (::)
